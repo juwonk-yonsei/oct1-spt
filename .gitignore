@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+figures/*.png
+figures/*.pdf
+figures/*.tiff
+figures/*.tif
+*.xlsx
+.DS_Store
+.cache/
+tmp/

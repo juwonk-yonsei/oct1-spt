@@ -1,0 +1,38 @@
+{
+  "n_heldout_missense": 34,
+  "H4.1": {
+    "pass": false,
+    "p": 1.0,
+    "OR": NaN,
+    "CORE_pathogenic": [
+      0,
+      9
+    ],
+    "EXPOSED_pathogenic": [
+      0,
+      3
+    ]
+  },
+  "H4.2": {
+    "pass": true,
+    "exposed_pathogenic_frac": 0.0,
+    "n_exposed_loss": 3
+  },
+  "H4.3": {
+    "pass": false,
+    "p": 0.09807112572745887,
+    "OR": 3.6666666666666665,
+    "loss_CORE": [
+      9,
+      18
+    ],
+    "neutral_CORE": [
+      3,
+      14
+    ]
+  },
+  "GREY_loss_pathogenic": [
+    2,
+    6
+  ]
+}

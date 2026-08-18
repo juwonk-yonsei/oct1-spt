@@ -1,0 +1,38 @@
+{
+  "core_cutoff": 10.0,
+  "exposed_cutoff": 30.0,
+  "af2_dir": "oct1_variants_20260811_204134",
+  "n_af2_residues": 554,
+  "af2_counts": {
+    "EXPOSED": 164,
+    "GREY": 199,
+    "CORE": 191
+  },
+  "design_rank1_ok": true,
+  "repro_unanimous_frac": 0.8772563176895307,
+  "repro_n_flip": 68,
+  "n_8sc1_residues": 446,
+  "n_compared": 438,
+  "af2_8sc1_agree": 358,
+  "af2_8sc1_agree_frac": 0.817351598173516,
+  "disulfides": [
+    {
+      "cys_a": 50,
+      "cys_b": 121,
+      "af2_sg_sg": 1.073,
+      "exp_sg_sg": 2.027
+    },
+    {
+      "cys_a": 62,
+      "cys_b": 102,
+      "af2_sg_sg": 2.165,
+      "exp_sg_sg": 2.032
+    },
+    {
+      "cys_a": 88,
+      "cys_b": 142,
+      "af2_sg_sg": 1.818,
+      "exp_sg_sg": 2.041
+    }
+  ]
+}

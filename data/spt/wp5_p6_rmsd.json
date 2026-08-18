@@ -1,0 +1,46 @@
+{
+  "noise_max_A": 3.284,
+  "P6_primary_pass": true,
+  "P6_sanity_pass": true,
+  "pairs": [
+    {
+      "label": "P6 primary: inward WT vs outward OCT1CS",
+      "pdb_a": "8SC1.pdb",
+      "pdb_b": "8ET6.pdb",
+      "rmsd_identical": 4.033276977095977,
+      "n_identical": 383,
+      "rmsd_all_common": 4.022078925261703,
+      "n_all_common": 446,
+      "rmsd_tm_identical": 2.7314176423111944,
+      "n_tm": 206,
+      "n_aa_mismatch": 63,
+      "above_noise_identical": true
+    },
+    {
+      "label": "P6 sanity: inward apo vs inward metformin",
+      "pdb_a": "8SC1.pdb",
+      "pdb_b": "8SC4.pdb",
+      "rmsd_identical": 0.9028136763413875,
+      "n_identical": 445,
+      "rmsd_all_common": 0.9028136763413875,
+      "n_all_common": 445,
+      "rmsd_tm_identical": 0.731430385938158,
+      "n_tm": 250,
+      "n_aa_mismatch": 0,
+      "above_noise_identical": false
+    },
+    {
+      "label": "secondary: OCT1 inward vs OCT3 outward",
+      "pdb_a": "8SC1.pdb",
+      "pdb_b": "7ZH0.pdb",
+      "rmsd_identical": 6.834033897693845,
+      "n_identical": 45,
+      "rmsd_all_common": 9.65714416130465,
+      "n_all_common": 419,
+      "rmsd_tm_identical": 5.982983991781916,
+      "n_tm": 31,
+      "n_aa_mismatch": 374,
+      "above_noise_identical": true
+    }
+  ]
+}

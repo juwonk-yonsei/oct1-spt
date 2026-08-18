@@ -1,0 +1,35 @@
+hgvs	literature_cite	literature_impact_function	literature_impact_trafficking	note	parse_ok	wt_aa	res_pos	mut_aa	hgvs_short	excluded_design	is_deletion	uncertain_note	spt_class	topology	rel_sasa	am_pathogenicity	am_class	func_bundle
+p.(G165V)	Meyer 2020	neutral			True	G	165	V	G165V	False	False	False	GREY	Transmembrane	36.11	0.077	benign	neutral
+p.(G181V)	Meyer 2020	neutral			True	G	181	V	G181V	False	False	False	GREY	Transmembrane	31.221	0.0852	benign	neutral
+p.(L155V)	Meyer 2020	neutral			True	L	155	V	L155V	False	False	False	CORE	Transmembrane	0.0	0.1205	benign	neutral
+p.(A31S)	Meyer 2022	neutral			True	A	31	S	A31S	False	False	False	GREY	Transmembrane	17.593	0.0951	benign	neutral
+p.(C36Y)	Meyer 2022	neutral			True	C	36	Y	C36Y	False	False	False	GREY	Transmembrane	12.712	0.1584	benign	neutral
+p.(F32L)	Meyer 2022	loss			True	F	32	L	F32L	False	False	False	GREY	Transmembrane	10.064	0.8601	pathogenic	loss*
+p.(I24L)	Meyer 2022	neutral			True	I	24	L	I24L	False	False	False	GREY	Transmembrane	18.39	0.0586	benign	neutral
+p.(L28I)	Meyer 2022	neutral			True	L	28	I	L28I	False	False	False	CORE	Transmembrane	1.667	0.1238	benign	neutral
+p.(E284K)	Seitz 2015	loss	loss		True	E	284	K	E284K	False	False	False	GREY	Cytoplasmic	12.304	0.7472	pathogenic	loss*
+p.(G414A)	Seitz 2015	neutral		or loss??	True	G	414	A	G414A	False	False	True	CORE	Transmembrane	0.0	0.1295	benign	neutral
+p.(I449T)	Seitz 2015	loss			True	I	449	T	I449T	False	False	False	CORE	Transmembrane	0.613	0.3116	benign	loss*
+p.(L160F)	Seitz 2015	neutral		??? F160 or L160?	True	L	160	F	L160F	False	False	True	GREY	Transmembrane	17.423	0.0997	benign	neutral
+p.(Q97K)	Seitz 2015	loss			True	Q	97	K	Q97K	False	False	False	EXPOSED	Extracellular	41.039	0.0929	benign	loss*
+p.(P117L)	Seitz 2015	gain		or neutral - mato??	True	P	117	L	P117L	False	False	True	EXPOSED	Extracellular	43.292	0.0982	benign	gain
+p.(R206C)	Seitz 2015	loss			True	R	206	C	R206C	False	False	False	CORE	Extracellular	0.798	0.2693	benign	loss*
+p.(S29L)	Seitz 2015	loss	loss		True	S	29	L	S29L	False	False	False	CORE	Transmembrane	0.0	0.4118	ambiguous	loss*
+p.(T245M)	Seitz 2015	loss			True	T	245	M	T245M	False	False	False	CORE	Transmembrane	4.44	0.2219	benign	loss*
+p.(F160L)	Shu 2003	neutral	neutral		True	F	160	L	F160L	False	False	False	GREY	Transmembrane	17.423			neutral
+p.(L85F)	Shu 2003	partial_loss			True	L	85	F	L85F	False	False	False	EXPOSED	Extracellular	59.152	0.0905	benign	loss*
+p.(M440I)	Shu 2003	partial_loss			True	M	440	I	M440I	False	False	False	GREY	Transmembrane	19.207	0.5409	ambiguous	loss*
+p.(V461I)	Shu 2003	partial_loss			True	V	461	I	V461I	False	False	False	CORE	Cytoplasmic	0.694	0.0887	benign	loss*
+p.(G220V)	Shu 2003, Seitz 2015	loss			True	G	220	V	G220V	False	False	False	CORE	Transmembrane	0.0	0.435	ambiguous	loss*
+p.(M408V)	Shu 2003, Seitz 2015	neutral			True	M	408	V	M408V	False	False	False	GREY	Transmembrane	48.093	0.0616	benign	neutral
+p.(P341L)	Shu 2003, Seitz 2015	neutral			True	P	341	L	P341L	False	False	False	EXPOSED	Cytoplasmic	48.954	0.3299	benign	neutral
+p.(R342H)	Shu 2003, Seitz 2015	neutral			True	R	342	H	R342H	False	False	False	EXPOSED	Cytoplasmic	36.097	0.0861	benign	neutral
+p.(S14F)	Shu 2003, Seitz 2015	loss		or gain?	True	S	14	F	S14F	False	False	True	EXPOSED	Cytoplasmic	46.44	0.0642	benign	loss*
+p.(R488M)	Shu 2003, Seitz 2015, Morse 2021	gain			True	R	488	M	R488M	False	False	False	GREY	Extracellular	14.82	0.1838	benign	gain
+p.(S189L)	Shu 2003, Seitz 2015, Morse 2021	loss	loss		True	S	189	L	S189L	False	False	False	CORE	Transmembrane	0.0	0.1361	benign	loss*
+p.(Y240F)	Uddin 2021	loss	loss	phosphorylation	True	Y	240	F	Y240F	False	False	False	CORE	Transmembrane	0.459	0.1386	benign	loss*
+p.(Y361F)	Uddin 2021	loss	loss	phosphorylation	True	Y	361	F	Y361F	False	False	False	CORE	Transmembrane	9.998	0.1927	benign	loss*
+p.(Y376F)	Uddin 2021	loss	loss	phosphorylation	True	Y	376	F	Y376F	False	False	False	GREY	Extracellular	25.389	0.1468	benign	loss*
+p.(P283A)	Sprowl 2016	loss			True	P	283	A	P283A	False	False	False	GREY	Transmembrane	15.878	0.2691	benign	loss*
+p.(P283L)	Sprowl 2016	loss		??? Is this P341L?	True	P	283	L	P283L	False	False	True	GREY	Transmembrane	15.878	0.3286	benign	loss*
+p.(L160P)	Tzvetkov 2009	neutral		??	True	L	160	P	L160P	False	False	True	GREY	Transmembrane	17.423	0.7016	pathogenic	neutral

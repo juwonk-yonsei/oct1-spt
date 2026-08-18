@@ -1,0 +1,7 @@
+hgvs	literature_cite	literature_impact_function	note	hgvs_short	res_pos	spt_class	rel_sasa	am_class	am_pathogenicity	func_bundle
+p.(M165I)	Leabman 2002	loss	reduced MPP+ uptake in oocytes	M165I	165	GREY	52.058	benign	0.187	loss*
+p.(T199I)	Song 2008 / Choi 2012	loss	reduced metformin and MPP+; lower renal CL	T199I	199	EXPOSED	34.947	benign	0.3309	loss*
+p.(T201M)	Song 2008 / Choi 2012 / Kashi 2015	loss	reduced metformin Vmax; lower renal CL	T201M	201	EXPOSED	53.717	benign	0.0963	loss*
+p.(A270S)	Leabman 2002 / Song 2008 / Chen 2009	partial_loss	rs316019 common; substrate-dependent (metformin often reduced; MPP+ near WT)	A270S	270	CORE	0.0			loss*
+p.(R400C)	Leabman 2002	loss	lowest MPP+ activity among characterized SNPs	R400C	400	EXPOSED	69.912	benign	0.2446	loss*
+p.(K432Q)	Leabman 2002	partial_loss	MPP+ similar to WT; altered inhibitor sensitivity	K432Q	432	GREY	20.584	benign	0.2092	loss*

@@ -1,0 +1,24 @@
+{
+  "n_boot": 10000,
+  "P2_rho_by_class": {
+    "CORE": {
+      "rho": -0.4816712863654306,
+      "ci_lo": -0.5415388749895879,
+      "ci_hi": -0.4186200030522398,
+      "n_res": 188
+    },
+    "EXPOSED": {
+      "rho": -0.4224610674484405,
+      "ci_lo": -0.4942207408161362,
+      "ci_hi": -0.3470078082753403,
+      "n_res": 157
+    },
+    "GREY": {
+      "rho": -0.638025458734862,
+      "ci_lo": -0.6802048206972098,
+      "ci_hi": -0.5897824714759551,
+      "n_res": 197
+    }
+  },
+  "note": "Per-class CIs: independent residue-clustered bootstrap, 10 000 resamples. P2 delta CI remains the preregistered value in wp3_p1_p2_p4.json."
+}

@@ -1,0 +1,49 @@
+{
+  "P1": {
+    "pass": true,
+    "p_raw": 4.2289663237185804e-23,
+    "p_holm": 1.268689897115574e-22,
+    "core_median_gfp": -1.0071903210667763,
+    "exposed_median_gfp": 0.0931161087961285
+  },
+  "P2": {
+    "pass": false,
+    "p_raw": 0.1031,
+    "p_holm": 0.1031,
+    "rho_CORE": -0.4816712863654306,
+    "rho_EXPOSED": -0.4224610674484405,
+    "delta_abs_rho": 0.05921021891699013,
+    "delta_abs_ci": [
+      -0.03304897878895158,
+      0.15646597986505595
+    ]
+  },
+  "P3": {
+    "pass": true,
+    "p_raw": 4.0871825582837804e-29,
+    "p_holm": 1.6348730233135122e-28,
+    "core_median_ddg": 1.28983545,
+    "exposed_median_ddg": 0.3017269,
+    "grey_median_ddg": 1.19806005,
+    "n_variants": 10431,
+    "tool": "ThermoMPNN-D v2_ssm single ens1"
+  },
+  "P4": {
+    "pass": true,
+    "p_raw": 0.0003977121295219996,
+    "p_holm": 0.0007954242590439992,
+    "n_hit": 493,
+    "frac_exposed_hit": 0.35699797160243407,
+    "frac_exposed_bg": 0.2881268664401195,
+    "odds_ratio": 1.396694314307233
+  },
+  "n_validation_missense": 9711,
+  "loss_cutoff_gfp": -0.8140395587824242,
+  "design_pos_excluded": [
+    61,
+    88,
+    401,
+    420,
+    465
+  ]
+}

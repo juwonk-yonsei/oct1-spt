@@ -1,0 +1,71 @@
+{
+  "U1_pass": false,
+  "U2_pass": true,
+  "U3_pass": false,
+  "rho_usm_sm73": 0.08666642771244136,
+  "rho_am_sm73": 0.0716370504392759,
+  "rho_ddg_sm73": 0.054801183307321796,
+  "rho_tpt_u_sm73": 0.06595356241361898,
+  "rho_hgbr_sm73": 0.08287109193798559,
+  "delta_vs_AM": {
+    "delta": 0.015029377273165459,
+    "ci_lo": -0.010792737097859563,
+    "ci_hi": 0.04153784736541607,
+    "n_res": 511,
+    "n_boot": 10000
+  },
+  "delta_vs_ddG": {
+    "delta": 0.031865244405119564,
+    "ci_lo": 0.005387112084129325,
+    "ci_hi": 0.05891597639956926,
+    "n_res": 511,
+    "n_boot": 10000
+  },
+  "delta_vs_tpt_u": {
+    "delta": 0.02071286529882238,
+    "ci_lo": 0.003977657222482182,
+    "ci_hi": 0.0377510350792426,
+    "n_res": 511,
+    "n_boot": 10000
+  },
+  "rho_usm_resid": 0.061022983016570574,
+  "rho_am_resid": 0.001981228140636661,
+  "rho_ddg_resid": 0.0009999370760160986,
+  "delta_resid_vs_AM": {
+    "delta": 0.05904175487593391,
+    "ci_lo": 0.0300902805787147,
+    "ci_hi": 0.08822864893298253,
+    "n_res": 511,
+    "n_boot": 10000
+  },
+  "delta_resid_vs_ddG": {
+    "delta": 0.06002304594055448,
+    "ci_lo": 0.03202448346763024,
+    "ci_hi": 0.08763020909025201,
+    "n_res": 511,
+    "n_boot": 10000
+  },
+  "n_pocket": 113,
+  "rho_usm_pocket": 0.15242198416394973,
+  "rho_am_pocket": 0.23995375588135787,
+  "features": [
+    "gate_disp",
+    "dist_metformin",
+    "pocket",
+    "pocket_x_charge",
+    "pocket_x_volume",
+    "d_charge",
+    "d_volume",
+    "d_hydro",
+    "abs_d_charge",
+    "delta_sasa_io",
+    "tm_interface",
+    "gate_x_tm",
+    "rel_sasa_8sc1",
+    "plddt",
+    "topo_Transmembrane",
+    "topo_Extracellular",
+    "topo_Cytoplasmic"
+  ],
+  "n_eval": 9512
+}

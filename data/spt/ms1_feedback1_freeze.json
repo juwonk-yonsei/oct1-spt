@@ -1,0 +1,150 @@
+{
+  "note": "Feedback-1 freeze 2026-08-18. Does not retune SPT. P1\u2013P4 family remains the preregistered Holm set; within-loss OR, recall and AUROC are secondary and unadjusted as extra family tests. Original wp3_p1_p2_p4.json P4 n_hit=493 used func_loss (GFP-loss OR literature); manuscript now uses dms_loss only.",
+  "n_validation_missense": 9711,
+  "P4_dms_loss": {
+    "or": 1.3943504273504272,
+    "ci95": [
+      1.151668090453349,
+      1.6881713840721144
+    ],
+    "a": 173,
+    "b": 312,
+    "c": 2625,
+    "d": 6601,
+    "fisher_or": 1.3943504273504272,
+    "p": 0.0008120990189074056,
+    "n_hit": 485,
+    "n_exposed_hit": 173,
+    "frac_exposed_hit": 0.35670103092783506,
+    "frac_exposed_bg": 0.2881268664401195,
+    "loss_definition": "dms_loss (GFP \u2264 \u22120.814); NOT func_loss",
+    "func_loss_n_hit_was": 493,
+    "p_holm": 0.0016241980378148113,
+    "holm_note": "Holm family of four unchanged in identity (P1\u2013P4). P3 and P1 p_raw unchanged so their Holm factors stay 4 and 3. P4 is still the third-smallest p; Holm = p_raw \u00d7 2. P2 Holm = p_raw \u00d7 1 = 0.1031."
+  },
+  "within_gfp_loss_benign_vs_pathogenic_EXPOSED": {
+    "or": 5.7462977498691785,
+    "ci95": [
+      4.5775038949792295,
+      7.213524791616026
+    ],
+    "a": 173,
+    "b": 312,
+    "c": 245,
+    "d": 2539,
+    "fisher_or": 5.7462977498691785,
+    "p": 2.4754348725892897e-47,
+    "n_loss": 3944,
+    "n_benign_loss": 485,
+    "n_path_loss": 2784,
+    "frac_exposed_benign": 0.35670103092783506,
+    "frac_exposed_path": 0.08800287356321838
+  },
+  "am_pathogenic_recall_among_gfp_loss": {
+    "CORE": {
+      "n_loss": 1760,
+      "n_pathogenic": 1378,
+      "recall_pathogenic": 0.7829545454545455,
+      "n_benign": 149,
+      "miss_benign_rate": 0.0846590909090909,
+      "n_ambiguous": 233
+    },
+    "EXPOSED": {
+      "n_loss": 588,
+      "n_pathogenic": 245,
+      "recall_pathogenic": 0.4166666666666667,
+      "n_benign": 173,
+      "miss_benign_rate": 0.2942176870748299,
+      "n_ambiguous": 170
+    },
+    "GREY": {
+      "n_loss": 1596,
+      "n_pathogenic": 1161,
+      "recall_pathogenic": 0.7274436090225563,
+      "n_benign": 163,
+      "miss_benign_rate": 0.10213032581453634,
+      "n_ambiguous": 272
+    }
+  },
+  "am_pathogenic_recall_CORE_vs_EXPOSED": {
+    "or": 5.050261780104712,
+    "ci95": [
+      4.137659908775732,
+      6.164147032357956
+    ],
+    "a": 1378,
+    "b": 382,
+    "c": 245,
+    "d": 343,
+    "fisher_or": 5.050261780104712,
+    "p": 6.5392737027362545e-59
+  },
+  "am_auroc_gfp_loss": {
+    "CORE": {
+      "n": 3361,
+      "n_loss": 1760,
+      "auroc": 0.7458451039123275,
+      "ci95": [
+        0.7294428676059047,
+        0.7622473402187503
+      ]
+    },
+    "EXPOSED": {
+      "n": 2798,
+      "n_loss": 588,
+      "auroc": 0.8127173946501678,
+      "ci95": [
+        0.790632229376247,
+        0.8348025599240886
+      ]
+    },
+    "GREY": {
+      "n": 3552,
+      "n_loss": 1596,
+      "auroc": 0.8396183774876865,
+      "ci95": [
+        0.8260332480500858,
+        0.8532035069252872
+      ]
+    }
+  },
+  "am_by_class_all_missense": {
+    "CORE": {
+      "n": 3361,
+      "median_am": 0.6755,
+      "frac_pathogenic_call": 0.6027967866706337
+    },
+    "EXPOSED": {
+      "n": 2798,
+      "median_am": 0.22805,
+      "frac_pathogenic_call": 0.15511079342387418
+    },
+    "GREY": {
+      "n": 3552,
+      "median_am": 0.4893,
+      "frac_pathogenic_call": 0.4411599099099099
+    }
+  },
+  "literature_n34": {
+    "n": 34,
+    "by_func": {
+      "loss*": 18,
+      "neutral": 14,
+      "gain": 2
+    },
+    "by_spt": {
+      "GREY": 16,
+      "CORE": 12,
+      "EXPOSED": 6
+    },
+    "exposed_loss_star": [
+      "Q97K",
+      "L85F",
+      "S14F"
+    ]
+  },
+  "ci_method": {
+    "odds_ratio": "Woolf logit 95% CI; Fisher exact p and OR",
+    "auroc": "Hanley\u2013McNeil 95% CI on Mann\u2013Whitney AUROC"
+  }
+}

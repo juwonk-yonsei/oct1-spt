@@ -1,0 +1,15 @@
+mode	variant	pos	spt_class	rel_sasa	topology	ddg	am_pathogenicity	am_class	GFP_score	note
+design_missense	R61C	61	EXPOSED	65.597	Extracellular	0.80243295	0.2677	benign	-2.039162583294398	R61C expected ΔΔG≈0 (EXPOSED); CORE expected high ΔΔG
+design_missense	C88R	88	GREY	14.934	Extracellular	0.8782729	0.888	pathogenic	-3.534557134033634	R61C expected ΔΔG≈0 (EXPOSED); CORE expected high ΔΔG
+design_missense	G401S	401	CORE	0.0	Cytoplasmic	1.2503675	0.5252	ambiguous	-1.7553288755342749	R61C expected ΔΔG≈0 (EXPOSED); CORE expected high ΔΔG
+design_missense	G465R	465	CORE	0.0	Transmembrane	1.2671528	0.959	pathogenic	-3.5400732851197585	R61C expected ΔΔG≈0 (EXPOSED); CORE expected high ΔΔG
+disulfide_cys	C50*	50	CORE	5.296	Extracellular	0.45883548				pair C50–C121; median over 19 substitutions
+disulfide_cys	C62*	62	GREY	18.128	Extracellular	0.54179835				pair C62–C102; median over 19 substitutions
+disulfide_cys	C88*	88	GREY	14.934	Extracellular	0.71551025				pair C88–C142; median over 19 substitutions
+disulfide_cys	C102*	102	EXPOSED	32.167	Extracellular	0.4866397				pair C62–C102; median over 19 substitutions
+disulfide_cys	C121*	121	GREY	16.148	Extracellular	0.62576705				pair C50–C121; median over 19 substitutions
+disulfide_cys	C142*	142	GREY	19.554	Extracellular	0.75630105				pair C88–C142; median over 19 substitutions
+ptm_yf	Y240F	240	CORE	0.459	Transmembrane	0.10033524	0.1386	benign	-1.4833120674323756	phosphorylation site; AM/ΔΔG expected uninformative
+ptm_yf	Y361F	361	CORE	9.998	Transmembrane	0.53799915	0.1927	benign	0.104767102118588	phosphorylation site; AM/ΔΔG expected uninformative
+ptm_yf	Y376F	376	GREY	25.389	Extracellular	0.19488823	0.1468	benign	-0.1507911109759906	phosphorylation site; AM/ΔΔG expected uninformative
+deletion	M420del	420	CORE	5.54	Transmembrane					AM indel gap; substrate-specific loss with near-normal abundance in some reports

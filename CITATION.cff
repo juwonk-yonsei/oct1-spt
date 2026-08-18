@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "OCT1 structure-position triage (SPT)"
+message: If you use this software, please cite the article below.
+type: software
+authors:
+  - family-names: Kang
+    given-names: Juwon
+    orcid: "https://orcid.org/0009-0009-2186-0038"
+    affiliation: College of Pharmacy, Yonsei Institute of Pharmaceutical Sciences, Yonsei University
+  - family-names: Choi
+    given-names: Junjeong
+    orcid: "https://orcid.org/0000-0003-1339-593X"
+    affiliation: College of Pharmacy, Yonsei Institute of Pharmaceutical Sciences, Yonsei University
+    email: junjeong@yonsei.ac.kr
+preferred-citation:
+  type: article
+  title: "Structure-position triage of OCT1 (SLC22A1) missense variants with AlphaMissense, AlphaFold and deep mutational scanning"
+  authors:
+    - family-names: Kang
+      given-names: Juwon
+    - family-names: Choi
+      given-names: Junjeong
+  journal: The Pharmacogenomics Journal
+  year: 2026

@@ -1,0 +1,27 @@
+{
+  "G1": {
+    "pass": null,
+    "note": "no independent OCT2 DMS \u2014 not run"
+  },
+  "G2": {
+    "pass": false,
+    "p": 0.5,
+    "OR": null,
+    "n_hit": 5,
+    "frac_exposed_hit": 0.6,
+    "frac_exposed_bg": 0.5,
+    "n_literature": 6
+  },
+  "G3": {
+    "n": 505,
+    "agree": 378,
+    "frac": 0.7485148514851485,
+    "pass": false
+  },
+  "af2_counts": {
+    "EXPOSED": 164,
+    "GREY": 205,
+    "CORE": 186
+  },
+  "af2_dir": "/HDD8T1/WORK/Metformin_HDD/structures/oct2_wt_20260812_092657"
+}

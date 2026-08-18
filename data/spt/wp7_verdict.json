@@ -1,0 +1,34 @@
+{
+  "disulfide_pairs": [
+    [
+      50,
+      121
+    ],
+    [
+      62,
+      102
+    ],
+    [
+      88,
+      142
+    ]
+  ],
+  "ptm": [
+    "Y240F",
+    "Y361F",
+    "Y376F"
+  ],
+  "design_ddg": {
+    "R61C": 0.80243295,
+    "C88R": 0.8782729,
+    "G401S": 1.2503675,
+    "G465R": 1.2671528
+  },
+  "spt_8sc1_vs_8sc4": {
+    "n": 437,
+    "agree": 387,
+    "frac": 0.88558352402746,
+    "pass": true
+  },
+  "note": "WP7; thresholds unchanged. 8SC4 SPT is ligand sanity not a new G3."
+}

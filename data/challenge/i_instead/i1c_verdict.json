@@ -1,0 +1,120 @@
+{
+  "prereg": "met_prereg_instead_dry.md",
+  "status": "fail",
+  "pass_primary": false,
+  "n": {
+    "universe": 1675,
+    "Stab*": 51,
+    "Trans*": 99,
+    "WT*": 185,
+    "r5_pos_excluded": [
+      14,
+      19,
+      41,
+      76,
+      85,
+      93,
+      97,
+      149,
+      161,
+      230,
+      234,
+      247,
+      308,
+      338,
+      373,
+      389,
+      399,
+      445,
+      541
+    ]
+  },
+  "cuts": {
+    "P1_LOSS": -0.814,
+    "AM_BENIGN": 0.34,
+    "resid_q10": -0.2882529540825411,
+    "abs_q25": 0.06608502985979253
+  },
+  "I1C.1": {
+    "table": [
+      [
+        16,
+        35
+      ],
+      [
+        29,
+        70
+      ]
+    ],
+    "or": 1.103448275862069,
+    "p": 0.8515601913031547,
+    "pass": false,
+    "p_holm": 0.8515601913031547,
+    "pass_holm": false
+  },
+  "I1C.2": {
+    "n_stab": 51,
+    "n_trans": 99,
+    "median_stab": 1.0388765,
+    "median_trans": 0.56241816,
+    "p": 0.004177739797957577,
+    "pass": true,
+    "p_holm": 0.012533219393872731,
+    "pass_holm": true
+  },
+  "I1C.5": {
+    "table": [
+      [
+        57,
+        42
+      ],
+      [
+        19,
+        32
+      ]
+    ],
+    "or": 2.2857142857142856,
+    "p": 0.024784161586934077,
+    "pass": true,
+    "p_holm": 0.04956832317386815,
+    "pass_holm": true
+  },
+  "I1C.4": {
+    "table": [
+      [
+        16,
+        35
+      ],
+      [
+        50,
+        135
+      ]
+    ],
+    "or": 1.2342857142857142,
+    "p": 0.5977458887216783,
+    "pass": false
+  },
+  "I1C.3": {
+    "auroc_ddg": 0.6430976430976431,
+    "auroc_am": 0.6312141018023372
+  },
+  "class_by_type": {
+    "CORE": {
+      "Stab*": 16,
+      "Trans*": 29,
+      "WT*": 50
+    },
+    "EXPOSED": {
+      "Stab*": 11,
+      "Trans*": 44,
+      "WT*": 62
+    },
+    "GREY": {
+      "Stab*": 24,
+      "Trans*": 26,
+      "WT*": 73
+    }
+  },
+  "claim_if_pass": "Don't use AM to type or as a stop-rule. Instead (DMS proxies): CORE is Stab* (abundance/stability, high \u0394\u0394G); Trans* is GFP-ok residual-loss that AM misses. Not surface-normalized; not a clinical guideline.",
+  "scored_at": "2026-08-18T11:37:57+09:00"
+}

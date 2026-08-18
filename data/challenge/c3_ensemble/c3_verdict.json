@@ -1,0 +1,49 @@
+{
+  "C3_1_pass": true,
+  "C3_2_pass": true,
+  "pass": true,
+  "degraded_ok_for_next": true,
+  "method": "ca_anm",
+  "rc": 13.0,
+  "n_modes": 20,
+  "rho_ens_resid": 0.07668773882339218,
+  "rho_am_resid": 0.0009091952161926066,
+  "rho_usm_resid": 0.06590607783921723,
+  "delta_vs_AM": {
+    "delta": 0.07577854360719957,
+    "ci_lo": 0.04745317776629926,
+    "ci_hi": 0.10444907308304867,
+    "n_res": 511,
+    "n_boot": 10000
+  },
+  "delta_vs_USM": {
+    "delta": 0.010781660984174948,
+    "ci_lo": 0.0017067391430905777,
+    "ci_hi": 0.02026142816776569,
+    "n_res": 511,
+    "n_boot": 10000
+  },
+  "features": [
+    "anm_msf_8sc1",
+    "anm_msf_8et6",
+    "anm_msf_ratio",
+    "dphi_8sc1",
+    "gate_disp",
+    "dist_metformin",
+    "pocket",
+    "d_charge",
+    "d_volume",
+    "d_hydro",
+    "abs_d_charge",
+    "delta_sasa_io",
+    "rel_sasa_8sc1",
+    "plddt",
+    "topo_Transmembrane",
+    "topo_Extracellular",
+    "topo_Cytoplasmic"
+  ],
+  "n_eval": 9144,
+  "artifacts": {
+    "preds": "/HDD8T1/WORK/Metformin_HDD/challenge/c3_ensemble/oct1_ens_lopo.tsv"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "p_residue": 4.0871825582837804e-29,
+  "p_variant": 0.0,
+  "core_median": 1.28983545,
+  "exposed_median": 0.3017269,
+  "grey_median": 1.19806005,
+  "n_core_res": 188,
+  "n_exposed_res": 163,
+  "n_grey_res": 198,
+  "n_variants": 10431,
+  "overall_median_ddg": 0.8215699
+}

@@ -1,0 +1,248 @@
+{
+  "C3x_1_anm_ablation": {
+    "pass": true,
+    "rho_full": 0.07668773882339218,
+    "rho_no_anm": 0.06729612194869146,
+    "delta": {
+      "delta": 0.00939161687470072,
+      "ci_lo": 0.0011937681930866467,
+      "ci_hi": 0.01768268192331502,
+      "n_res": 511,
+      "n_boot": 10000
+    }
+  },
+  "C3x_2_dphi_ablation": {
+    "pass": false,
+    "rho_no_dphi": 0.07823586161640804,
+    "delta": {
+      "delta": -0.0015481227930158603,
+      "ci_lo": -0.004515433138671247,
+      "ci_hi": 0.0013585404225936702,
+      "n_res": 511,
+      "n_boot": 10000
+    }
+  },
+  "C3x_3_anm_permute": {
+    "pass": true,
+    "rho_perm": 0.0657005958541924,
+    "delta": {
+      "delta": 0.010987142969199781,
+      "ci_lo": 0.0028930602923542014,
+      "ci_hi": 0.01967919814774854,
+      "n_res": 511,
+      "n_boot": 10000
+    }
+  },
+  "C3x_8_anm_only_vs_AM": {
+    "pass": true,
+    "rho_anm_only": 0.03265490747061585,
+    "rho_am": 0.0009091952161926066,
+    "delta": {
+      "delta": 0.03174571225442324,
+      "ci_lo": 0.0012805145820844685,
+      "ci_hi": 0.06171298582121067,
+      "n_res": 511,
+      "n_boot": 10000
+    }
+  },
+  "C3x_4_helix": {
+    "pass": true,
+    "n_clusters": 25,
+    "n_ens_gt_am": 17,
+    "rows": [
+      {
+        "cluster": "C_cyto",
+        "n": 492,
+        "rho_ens": -0.00875099739706948,
+        "rho_am": 0.0700692155269695,
+        "ens_gt_am": false
+      },
+      {
+        "cluster": "ECD",
+        "n": 1920,
+        "rho_ens": 0.06235035871049226,
+        "rho_am": -0.08876720749624684,
+        "ens_gt_am": true
+      },
+      {
+        "cluster": "N_cyto",
+        "n": 328,
+        "rho_ens": 0.15603335643517896,
+        "rho_am": -0.008994079781650599,
+        "ens_gt_am": true
+      },
+      {
+        "cluster": "TM1",
+        "n": 270,
+        "rho_ens": 0.06505896285728656,
+        "rho_am": -0.0687899106586819,
+        "ens_gt_am": true
+      },
+      {
+        "cluster": "TM10",
+        "n": 354,
+        "rho_ens": 0.09088378641754982,
+        "rho_am": 0.07214716275905902,
+        "ens_gt_am": true
+      },
+      {
+        "cluster": "TM11",
+        "n": 358,
+        "rho_ens": 0.13336381999929645,
+        "rho_am": -0.014680686183205192,
+        "ens_gt_am": true
+      },
+      {
+        "cluster": "TM12",
+        "n": 354,
+        "rho_ens": -0.0372129352675326,
+        "rho_am": -0.04352385272734585,
+        "ens_gt_am": true
+      },
+      {
+        "cluster": "TM2",
+        "n": 324,
+        "rho_ens": 0.10956859216921139,
+        "rho_am": 0.05221263557248166,
+        "ens_gt_am": true
+      },
+      {
+        "cluster": "TM3",
+        "n": 332,
+        "rho_ens": 0.130760323895402,
+        "rho_am": 0.057067378739586526,
+        "ens_gt_am": true
+      },
+      {
+        "cluster": "TM4",
+        "n": 388,
+        "rho_ens": 0.216279542283737,
+        "rho_am": 0.04021875252469145,
+        "ens_gt_am": true
+      },
+      {
+        "cluster": "TM5",
+        "n": 348,
+        "rho_ens": 0.01797785697953893,
+        "rho_am": 0.04120220055056608,
+        "ens_gt_am": false
+      },
+      {
+        "cluster": "TM6",
+        "n": 357,
+        "rho_ens": 0.04892817713363671,
+        "rho_am": -0.0008248547800631861,
+        "ens_gt_am": true
+      },
+      {
+        "cluster": "TM7",
+        "n": 356,
+        "rho_ens": 0.026227158057399256,
+        "rho_am": 0.014493709578174587,
+        "ens_gt_am": true
+      },
+      {
+        "cluster": "TM8",
+        "n": 389,
+        "rho_ens": 0.07411896136619854,
+        "rho_am": -0.05408561955266569,
+        "ens_gt_am": true
+      },
+      {
+        "cluster": "TM9",
+        "n": 324,
+        "rho_ens": -0.08586488846550767,
+        "rho_am": -0.050367071913522875,
+        "ens_gt_am": false
+      },
+      {
+        "cluster": "cyto_171",
+        "n": 101,
+        "rho_ens": 0.1254397204426325,
+        "rho_am": 0.15551679252305042,
+        "ens_gt_am": false
+      },
+      {
+        "cluster": "cyto_230",
+        "n": 112,
+        "rho_ens": -0.09327057778385212,
+        "rho_am": 0.03228892609423584,
+        "ens_gt_am": false
+      },
+      {
+        "cluster": "cyto_284",
+        "n": 1111,
+        "rho_ens": 0.03959177951627556,
+        "rho_am": -0.018402535385973307,
+        "ens_gt_am": true
+      },
+      {
+        "cluster": "cyto_398",
+        "n": 75,
+        "rho_ens": 0.027596017069701276,
+        "rho_am": -0.00631578947368421,
+        "ens_gt_am": true
+      },
+      {
+        "cluster": "cyto_453",
+        "n": 193,
+        "rho_ens": 0.005802307569040115,
+        "rho_am": 0.007590919941052622,
+        "ens_gt_am": false
+      },
+      {
+        "cluster": "extra_198",
+        "n": 149,
+        "rho_ens": -0.08958824596408489,
+        "rho_am": -0.08313289727207716,
+        "ens_gt_am": false
+      },
+      {
+        "cluster": "extra_257",
+        "n": 110,
+        "rho_ens": -0.07430967247481009,
+        "rho_am": 0.010770236458309853,
+        "ens_gt_am": false
+      },
+      {
+        "cluster": "extra_369",
+        "n": 133,
+        "rho_ens": 0.038757001050795235,
+        "rho_am": 0.023535832974217227,
+        "ens_gt_am": true
+      },
+      {
+        "cluster": "extra_424",
+        "n": 152,
+        "rho_ens": 0.1274407288185403,
+        "rho_am": 0.03315196544538284,
+        "ens_gt_am": true
+      },
+      {
+        "cluster": "extra_486",
+        "n": 114,
+        "rho_ens": -0.04554383264818453,
+        "rho_am": -0.16541618318047563,
+        "ens_gt_am": true
+      }
+    ]
+  },
+  "C3x_5_gfp_leak": {
+    "pass": true,
+    "rho_ens_gfp": 0.05582624979850491
+  },
+  "C3x_6_global_resid": {
+    "pass": true,
+    "rho_ens": 0.06348465330596255,
+    "rho_am": 0.0026339310859597666,
+    "delta": {
+      "delta": 0.06085072222000278,
+      "ci_lo": 0.03290853705808909,
+      "ci_hi": 0.08873612883472946,
+      "n_res": 511,
+      "n_boot": 10000
+    }
+  },
+  "motion_interpretation_ok": true,
+  "note": "Keep C3 PASS as bundle if C3x.5/6 hold; withdraw ANM causal claim unless motion_interpretation_ok."
+}
