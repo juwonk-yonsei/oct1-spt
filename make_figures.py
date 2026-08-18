@@ -26,7 +26,7 @@ SPT = HDD / "spt"
 OUT = ROOT / "figures"
 CACHE = SPT / "ms1_figure_stats.json"
 
-# Design-set AF2 mutant vs WT global Cα RMSD (met_af_plan.md §12-A.12).
+# Fallback only; Fig. 4 prefers spt/wp5_p6_rmsd.json design_set_af2_rmsd.
 DESIGN_RMSD = {
     "R61C": 0.995,
     "C88R": 1.423,
@@ -276,7 +276,7 @@ def fig3():
     labels = [
         "AF2 vs 8SC1\n(inward WT)",
         "AF2 vs 8ET6\n(outward OCT1CS)",
-        "OCT2 AF2 vs 8ET9\n(outward OCT2CS)",
+        "OCT2 AF2 vs 8ET9\n(outward-occluded OCT2CS)",
         "8SC1 vs 8SC4\n(inward ± metformin)",
     ]
     vals = [
@@ -316,10 +316,12 @@ def fig3():
 def fig4():
     p6 = json.loads((SPT / "wp5_p6_rmsd.json").read_text())
     noise = p6["noise_max_A"]
+    design = p6.get("design_set_af2_rmsd") or DESIGN_RMSD
+    design = {k: design[k] for k in DESIGN_RMSD}
     fig, axes = plt.subplots(1, 2, figsize=(7.2, 3.5))
     ax = axes[0]
-    names = list(DESIGN_RMSD)
-    vals = [DESIGN_RMSD[k] for k in names]
+    names = list(design)
+    vals = [design[k] for k in names]
     xs = np.arange(len(names))
     ax.bar(xs, vals, width=0.62, facecolor="white", edgecolor=C_CORE, linewidth=1.4, zorder=2)
     ax.scatter(xs, vals, s=18, c=C_CORE, zorder=3, linewidths=0)
@@ -501,6 +503,7 @@ def supp_table_s1():
         ["I1C.1 CORE in Stab* vs Trans*", f"OR {v['I1C.1']['or']:.2f}", f"Holm p = {v['I1C.1']['p_holm']:.2f}", "FAIL"],
         ["I1C.2 ΔΔG Stab* vs Trans*", f"{v['I1C.2']['median_stab']:.3f} vs {v['I1C.2']['median_trans']:.3f}", f"Holm p = {v['I1C.2']['p_holm']:.3f}", "PASS (GFP-redundant)"],
         ["I1C.5 AM-benign Trans* vs Stab*", f"OR {v['I1C.5']['or']:.2f}", f"Holm p = {v['I1C.5']['p_holm']:.4f}", "GFP-confounded; not an instead-rule"],
+        ["AM-benign Trans* vs WT* (not Holm family)", "OR 0.85", "p = 0.53", "GFP-intact; I1C.5 is GFP-confounded"],
     ]
     df = pd.DataFrame(rows, columns=["Item", "Statistic", "Detail", "Verdict"])
     csv = OUT / "TableS1_I1C.csv"

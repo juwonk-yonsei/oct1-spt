@@ -42,5 +42,13 @@
       "n_aa_mismatch": 374,
       "above_noise_identical": true
     }
-  ]
+  ],
+  "design_set_af2_rmsd": {
+    "R61C": 0.995,
+    "C88R": 1.423,
+    "G401S": 1.405,
+    "M420del": 1.445,
+    "G465R": 0.944,
+    "source": "ColabFold rank-1 global Ca RMSD vs WT; met_af_plan.md section 12-A.12. Frozen here so Fig. 4 does not depend on the plan file."
+  }
 }

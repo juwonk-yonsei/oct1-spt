@@ -1,5 +1,5 @@
 {
-  "note": "Feedback-1 freeze 2026-08-18. Does not retune SPT. P1\u2013P4 family remains the preregistered Holm set; within-loss OR, recall and AUROC are secondary and unadjusted as extra family tests. Original wp3_p1_p2_p4.json P4 n_hit=493 used func_loss (GFP-loss OR literature); manuscript now uses dms_loss only.",
+  "note": "Feedback-1 freeze 2026-08-18, audit addendum same day. Does not retune SPT. P1\u2013P4 family remains the preregistered Holm set (variant-level). Manuscript P4 uses dms_loss n=485; wp3_p1_p2_p4.json n_hit=493 is func_loss \u2014 do not use 493.",
   "n_validation_missense": 9711,
   "P4_dms_loss": {
     "or": 1.3943504273504272,
@@ -146,5 +146,54 @@
   "ci_method": {
     "odds_ratio": "Woolf logit 95% CI; Fisher exact p and OR",
     "auroc": "Hanley\u2013McNeil 95% CI on Mann\u2013Whitney AUROC"
+  },
+  "P4_residue_clustered_bootstrap": {
+    "n_boot": 10000,
+    "seed": 20260812,
+    "n_residues": 542,
+    "or_median": 1.391222817415612,
+    "ci95": [
+      0.9864929146788755,
+      1.92041663322189
+    ],
+    "frac_or_le_1": 0.0294,
+    "note": "Sensitivity only. Locked P4 remains variant-level Fisher OR 1.39, Holm p=1.6e-3. Clustered 95% CI includes 1."
+  },
+  "within_gfp_loss_residue_clustered_bootstrap": {
+    "n_boot": 5000,
+    "seed": 20260812,
+    "or_median": 5.769721790958053,
+    "ci95": [
+      3.6775702226418496,
+      9.11078210622272
+    ],
+    "note": "Same residue-block method as P4 clustered; remains >1."
+  },
+  "I1C_AM_benign_Trans_vs_WT": {
+    "or": 0.8452380952380952,
+    "p": 0.526637685800512,
+    "trans_benign": 57,
+    "trans_n": 99,
+    "wt_benign": 114,
+    "wt_n": 185,
+    "note": "Not in the original I1C Holm family. GFP-intact comparison showing I1C.5 Trans vs Stab is GFP-confounded."
+  },
+  "literature_overlap_with_dms": {
+    "n_literature": 34,
+    "n_exact_variant_in_validation": 32,
+    "missing_from_validation": [
+      "F160L",
+      "M408V"
+    ],
+    "n_positions_in_validation": 34,
+    "note": "Independently curated functional labels, not a disjoint replication sample."
+  },
+  "design_set_af2_rmsd": {
+    "R61C": 0.995,
+    "C88R": 1.423,
+    "G401S": 1.405,
+    "M420del": 1.445,
+    "G465R": 0.944,
+    "source": "ColabFold rank-1 global Ca RMSD vs WT; met_af_plan.md section 12-A.12. Frozen here so Fig. 4 does not depend on the plan file."
   }
 }

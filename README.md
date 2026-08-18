@@ -26,6 +26,8 @@ Held-out literature AlphaFold mutant models (preregistered P5) were **not comple
 
 Yee et al. DMS scores, the AlphaMissense proteome table, AlphaFold2 PDBs, and experimental PDB files (8SC1, 8SC4, 8ET6, 8ET9) remain with their original sources. The freeze already contains the derived SPT tables needed to check the manuscript numbers.
 
+Manuscript P4 uses **`data/spt/ms1_feedback1_freeze.json`** (`dms_loss` n = **485**, OR 1.39). Do **not** use `wp3_p1_p2_p4.json` `n_hit` = 493 (`func_loss`). Residue-clustered P4 sensitivity (CI includes 1) is in the same freeze file. ColabFold models used for SPT are protocol-specific and are **not** the AlphaFold DB entry; they are not redistributed.
+
 Do not retune the SPT cuts (CORE rel.SASA &lt; 10%; EXPOSED rel.SASA &gt; 30% and extra-/cytoplasmic). Design-set positions 61 / 88 / 401 / 420 / 465 are rule-development only and are excluded from validation statistics.
 
 ## Rebuild figures
