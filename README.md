@@ -1,34 +1,40 @@
-# OCT1 structure-position triage (SPT)
+# OCT1 / SERT AlphaMissense calibration archive
 
 Analysis code and frozen tables for:
 
-> Kang J, Choi J. Structure-position triage of OCT1 (`SLC22A1`) missense variants with AlphaMissense, AlphaFold and deep mutational scanning. *The Pharmacogenomics Journal* (submitted).
+> Kang J, Choi J. ClinVar-calibrated AlphaMissense thresholds miss loss-of-function alleles at solvent-exposed residues in two human drug transporters. *PLOS Computational Biology* (in preparation).
 
-This repository is the **code availability** archive for that article. It rebuilds the display items from frozen SPT tables. It is not a new variant-effect predictor.
+This repository is the **code availability** archive for that article. It rebuilds the display items from frozen tables. It is not a new variant-effect predictor and not a pharmacogene-discovery paper.
+
+A previous working title used “structure-position triage (SPT)” and targeted *The Pharmacogenomics Journal*. That identity is withdrawn. Geometric class labels (buried / exposed / grey) remain the same locked rule.
 
 ## Authors
 
-- Juwon Kang (0009-0009-2186-0038) — first author  
-- Junjeong Choi (0000-0003-1339-593X) — corresponding author (`junjeong@yonsei.ac.kr`)  
+- Juwon Kang (0009-0009-2186-0038) — first author
+- Junjeong Choi (0000-0003-1339-593X) — corresponding author (`junjeong@yonsei.ac.kr`)
   College of Pharmacy, Yonsei Institute of Pharmaceutical Sciences, Yonsei University, Incheon 21983, Republic of Korea
 
 ## What is included
 
-- `prereg/` — SPT hypotheses P1–P6 locked on **12 August 2026** (before DMS–AM correlations), plus the uptake / residual / I1C notes used in the supplement
-- `data/spt/` — frozen SPT labels, validation missense table (`n = 9711`), ΔΔG, literature set, and P1–P4 / P6 verdicts
-- `data/challenge/` — residual-ensemble and I1C verdict JSON used for Supplementary Fig. 1 / Table S1
-- Python scripts used to assign SPT classes, join DMS/AlphaMissense/ΔΔG, and run the locked tests
-- `make_figures.py` — rebuild Fig. 1–5 and Supplementary Fig. 1 from the freeze
+- `prereg/` — hypotheses locked on **12 August 2026** (before DMS–AM correlations). The preregistered primary AM test was rank correlation; the recall-gap analysis in the paper is a secondary description, promoted post hoc.
+- `data/spt/` — frozen SPT labels, validation missense table (`n = 9,711`), ΔΔG, literature compilation, and locked result JSON
+- `data/spt/ms1_feedback2_freeze.json` plus `ms1_feedback2_addendum.json` … `addendum5.json` — numbers used in the PLOS manuscript
+- `data/spt/fb260901/` — gnomAD GFP-loss table and SERT cutoff sweep used by Fig. 5–6
+- `make_figures.py` — rebuild Figs 1–6 from the freeze (PDF / PNG / TIFF)
 
-Held-out literature AlphaFold mutant models (preregistered P5) were **not completed** and are not in this archive.
+Manuscript P4 uses **`dms_loss` n = 485**. Do **not** use `wp3_p1_p2_p4.json` `n_hit` = 493 (`func_loss`).
+
+Primary-label ColabFold wild-type coordinates (rank-1 and the five-model ensemble, with pLDDT) are **not** in this repository. They are deposited with the freeze on Zenodo. GitHub is not the archival copy.
+
+## What is not a result of the paper
+
+Scripts for an uptake / residual-function classifier (`met_uptake_*`, `met_r_residual.py`) and held-out literature AlphaFold mutant models (preregistered P5) failed or were not completed. They remain in the tree as the analysis history. They are not display items.
 
 ## What is not redistributed
 
-Yee et al. DMS scores, the AlphaMissense proteome table, AlphaFold2 PDBs, and experimental PDB files (8SC1, 8SC4, 8ET6, 8ET9) remain with their original sources. The freeze already contains the derived SPT tables needed to check the manuscript numbers.
+Yee et al. DMS scores, the AlphaMissense proteome table, and experimental PDB files (8SC1, 8SC4, 8ET6, 8ET9) remain with their original sources.
 
-Manuscript P4 uses **`data/spt/ms1_feedback1_freeze.json`** (`dms_loss` n = **485**, OR 1.39). Do **not** use `wp3_p1_p2_p4.json` `n_hit` = 493 (`func_loss`). Residue-clustered P4 sensitivity (CI includes 1) is in the same freeze file. ColabFold models used for SPT are protocol-specific and are **not** the AlphaFold DB entry; they are not redistributed.
-
-Do not retune the SPT cuts (CORE rel.SASA &lt; 10%; EXPOSED rel.SASA &gt; 30% and extra-/cytoplasmic). Design-set positions 61 / 88 / 401 / 420 / 465 are rule-development only and are excluded from validation statistics.
+Do not retune the class cuts (buried: relative SASA < 10%; exposed: relative SASA > 30% and extra- or cytoplasmic). Design positions 61 / 88 / 401 / 420 / 465 were used to draft the geometric rule and are excluded from validation statistics.
 
 ## Rebuild figures
 
@@ -39,21 +45,7 @@ pip install -r requirements.txt
 python make_figures.py
 ```
 
-Outputs go to `figures/` (PDF + TIFF). Fig. 2a bootstrap CIs are cached in `data/spt/ms1_figure_stats.json`.
-
-## Environment for a full re-run
-
-Full SPT from coordinates needs local AlphaFold2 models and PDB files. `env.sh` points `MET_HDD` at `./data` by default:
-
-```bash
-source env.sh
-python met_classify.py
-python met_dms.py
-python met_p3.py
-python make_figures.py
-```
-
-Scripts that need raw DMS or AlphaMissense files will look under `$MET_HDD/dms` and `$MET_HDD/alphamissense`. Those directories are empty here on purpose.
+`make_figures.py` reads `data/spt/` unless `MET_HDD` is set. Outputs go to `figures/`.
 
 ## License
 

@@ -1,0 +1,323 @@
+{
+  "consurf": {
+    "ok": false,
+    "attempts": [
+      {
+        "pdb": "8SC1",
+        "ok": false,
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='consurfdb.tau.ac.il', port=443): Max retries exceeded with url: /scripts/chain_selection.php?pdb_ID=8SC1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='consurfdb.tau.ac.il', port=443) at 0x7aa16e8d1340>, 'Connection to consurfdb.tau.ac.il timed out. (connect timeout=60)'))"
+      },
+      {
+        "pdb": "8ET6",
+        "ok": false,
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='consurfdb.tau.ac.il', port=443): Max retries exceeded with url: /scripts/chain_selection.php?pdb_ID=8ET6 (Caused by ConnectTimeoutError(<HTTPSConnection(host='consurfdb.tau.ac.il', port=443) at 0x7aa16e48f0e0>, 'Connection to consurfdb.tau.ac.il timed out. (connect timeout=60)'))"
+      },
+      {
+        "pdb": "8SC4",
+        "ok": false,
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='consurfdb.tau.ac.il', port=443): Max retries exceeded with url: /scripts/chain_selection.php?pdb_ID=8SC4 (Caused by ConnectTimeoutError(<HTTPSConnection(host='consurfdb.tau.ac.il', port=443) at 0x7aa16e48f830>, 'Connection to consurfdb.tau.ac.il timed out. (connect timeout=60)'))"
+      },
+      {
+        "pdb": "8ET8",
+        "ok": false,
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='consurfdb.tau.ac.il', port=443): Max retries exceeded with url: /scripts/chain_selection.php?pdb_ID=8ET8 (Caused by ConnectTimeoutError(<HTTPSConnection(host='consurfdb.tau.ac.il', port=443) at 0x7aa16ebc4440>, 'Connection to consurfdb.tau.ac.il timed out. (connect timeout=60)'))"
+      }
+    ],
+    "a1": null,
+    "a1_grade_1to9": null,
+    "a1_neg_score": null
+  },
+  "gnomad_x_dms": {
+    "n_gnomad_missense_rows": 858,
+    "n_with_am": 824,
+    "n_joined_dms_validation": 779,
+    "n_gnomad_not_in_validation": 79,
+    "n_gfp_loss": 258,
+    "n_cheng_miss_among_gfp_loss": 130,
+    "frac_cheng_miss_among_gfp_loss": 0.5038759689922481,
+    "gfp_loss_all": {
+      "n": 258,
+      "sum_af_EUR": 0.0032343605065080295,
+      "sum_af_EAS": 0.009101179425523397,
+      "sum_af_SAS": 0.014835059517767289,
+      "sum_af_AFR": 0.004164235751513828,
+      "sum_af_AMR": 0.00694882692342458
+    },
+    "gfp_loss_cheng_miss": {
+      "n": 130,
+      "sum_af_EUR": 0.0010756717087251023,
+      "sum_af_EAS": 0.007701478084438029,
+      "sum_af_SAS": 0.0109297465815799,
+      "sum_af_AFR": 0.002454188156316664,
+      "sum_af_AMR": 0.002030725823845254
+    },
+    "gfp_loss_cheng_path": {
+      "n": 128,
+      "sum_af_EUR": 0.0021586887977829276,
+      "sum_af_EAS": 0.0013997013410853674,
+      "sum_af_SAS": 0.003905312936187389,
+      "sum_af_AFR": 0.001710047595197165,
+      "sum_af_AMR": 0.004918101099579325
+    },
+    "by_spt_class": {
+      "CORE": {
+        "n_gfp_loss": 113,
+        "n_cheng_path": 61,
+        "n_cheng_miss": 52,
+        "frac_cheng_miss": 0.46017699115044247,
+        "sum_af_miss": {
+          "EUR": 0.00035295980072386554,
+          "EAS": 0.0010166461337819974,
+          "SAS": 0.00017607887421469277,
+          "AFR": 0.0015637177070163667,
+          "AMR": 0.0009624560288188954
+        },
+        "sum_af_all_loss": {
+          "EUR": 0.002332701293364415,
+          "EAS": 0.0014181030800003648,
+          "SAS": 0.003866827301275403,
+          "AFR": 0.002830030519457719,
+          "AMR": 0.005577070421407263
+        }
+      },
+      "EXPOSED": {
+        "n_gfp_loss": 37,
+        "n_cheng_path": 9,
+        "n_cheng_miss": 28,
+        "frac_cheng_miss": 0.7567567567567568,
+        "sum_af_miss": {
+          "EUR": 0.0003121621439543515,
+          "EAS": 0.0005127294435158834,
+          "SAS": 0.0010419528120848294,
+          "AFR": 0.0002539146129089267,
+          "AMR": 0.00030428239404459465
+        },
+        "sum_af_all_loss": {
+          "EUR": 0.00040288167018294447,
+          "EAS": 0.0005574351718589074,
+          "SAS": 0.0010529628752825918,
+          "AFR": 0.0003342190626089454,
+          "AMR": 0.00038768589969283946
+        }
+      },
+      "GREY": {
+        "n_gfp_loss": 108,
+        "n_cheng_path": 58,
+        "n_cheng_miss": 50,
+        "frac_cheng_miss": 0.46296296296296297,
+        "sum_af_miss": {
+          "EUR": 0.00041054976404688513,
+          "EAS": 0.006172102507140148,
+          "SAS": 0.009711714895280377,
+          "AFR": 0.0006365558363913701,
+          "AMR": 0.0007639874009817638
+        },
+        "sum_af_all_loss": {
+          "EUR": 0.0004987775429606696,
+          "EAS": 0.007125641173664125,
+          "SAS": 0.009915269341209293,
+          "AFR": 0.0009999861694471647,
+          "AMR": 0.0009840706023244773
+        }
+      }
+    },
+    "note": "Join key = hgvs_short on validation missense (design 61/88/401/420/465 excluded). Cheng miss = am_class_cheng != pathogenic (benign+ambiguous). sum_af is the sum of variant AFs, not unique-person prevalence."
+  },
+  "cheng_pooled": {
+    "why_pooled": "Cheng 0.564 is a locked external cutoff, not estimated inside each fold. The inferential quantity is therefore the pooled held-out table (every residue appears in exactly one test fold), not the unweighted mean of fold rates.",
+    "n_folds": 25,
+    "n_pooled_variants": 9711,
+    "pooled_heldout_cheng": {
+      "ALL": {
+        "n": 9711,
+        "n_loss": 3944,
+        "sens": 0.7053752535496958,
+        "spec": 0.7844633258193168,
+        "ppv": 0.6911801242236025,
+        "npv": 0.7956384101301442
+      },
+      "CORE": {
+        "n": 3361,
+        "n_loss": 1760,
+        "sens": 0.7818181818181819,
+        "spec": 0.5952529668956902,
+        "ppv": 0.6798418972332015,
+        "npv": 0.712789827973074
+      },
+      "EXPOSED": {
+        "n": 2798,
+        "n_loss": 588,
+        "sens": 0.4166666666666667,
+        "spec": 0.9144796380090497,
+        "ppv": 0.5645161290322581,
+        "npv": 0.8549069373942471
+      },
+      "GREY": {
+        "n": 3552,
+        "n_loss": 1596,
+        "sens": 0.7274436090225563,
+        "spec": 0.7924335378323109,
+        "ppv": 0.7409061901723037,
+        "npv": 0.7808564231738035
+      }
+    },
+    "unweighted_fold_mean_cheng_sens": {
+      "ALL": {
+        "mean": 0.7012446243084781,
+        "n_folds": 25
+      },
+      "CORE": {
+        "mean": 0.8037144882305717,
+        "n_folds": 22
+      },
+      "EXPOSED": {
+        "mean": 0.34419376927986384,
+        "n_folds": 12
+      },
+      "GREY": {
+        "mean": 0.7225323178527375,
+        "n_folds": 24
+      }
+    },
+    "full_data_cheng": {
+      "ALL": {
+        "n": 9711,
+        "n_loss": 3944,
+        "sens": 0.7053752535496958,
+        "spec": 0.7844633258193168,
+        "ppv": 0.6911801242236025,
+        "npv": 0.7956384101301442
+      },
+      "CORE": {
+        "n": 3361,
+        "n_loss": 1760,
+        "sens": 0.7818181818181819,
+        "spec": 0.5952529668956902,
+        "ppv": 0.6798418972332015,
+        "npv": 0.712789827973074
+      },
+      "EXPOSED": {
+        "n": 2798,
+        "n_loss": 588,
+        "sens": 0.4166666666666667,
+        "spec": 0.9144796380090497,
+        "ppv": 0.5645161290322581,
+        "npv": 0.8549069373942471
+      },
+      "GREY": {
+        "n": 3552,
+        "n_loss": 1596,
+        "sens": 0.7274436090225563,
+        "spec": 0.7924335378323109,
+        "ppv": 0.7409061901723037,
+        "npv": 0.7808564231738035
+      }
+    },
+    "youden_fold_mean_kept_as_cv": {
+      "mean_sens": 0.4514666362325521,
+      "n": 12
+    }
+  },
+  "proteingym_protocol": {
+    "source_zip": "ProteinGym v1.3 ProteinGym_AF2_structures.zip (Zenodo 15293562)",
+    "not_colabfold": "These PDBs are the ProteinGym-distributed AlphaFold2 models. CCR5 carries the AFDB 'ALPHAFOLD MONOMER V2.0' header and DeepMind author REMARK. C\u03b1 RMSD vs EBI AFDB v2 models near 0 \u21d2 same coordinates as AFDB v2, not a local ColabFold run.",
+    "proteins": [
+      {
+        "UniProt_ID": "ADRB2_HUMAN",
+        "uniprot_acc": "P07550",
+        "pgym_title": null,
+        "pgym_title_says_af_monomer_v2": false,
+        "pgym_has_hydrogens": true,
+        "n_ca": 413,
+        "afdb_v2_downloaded": false,
+        "rmsd_pgym_vs_afdb_v2": NaN,
+        "afdb_v4_downloaded": false,
+        "rmsd_pgym_vs_afdb_v4": NaN,
+        "verdict": "compare RMSD"
+      },
+      {
+        "UniProt_ID": "CCR5_HUMAN",
+        "uniprot_acc": "P51681",
+        "pgym_title": "ALPHAFOLD MONOMER V2.0 PREDICTION FOR C-C CHEMOKINE RECEPTOR TYPE 5",
+        "pgym_title_says_af_monomer_v2": true,
+        "pgym_has_hydrogens": false,
+        "n_ca": 352,
+        "afdb_v2_downloaded": false,
+        "rmsd_pgym_vs_afdb_v2": NaN,
+        "afdb_v4_downloaded": false,
+        "rmsd_pgym_vs_afdb_v4": NaN,
+        "verdict": "AFDB v2 header present"
+      },
+      {
+        "UniProt_ID": "HMDH_HUMAN",
+        "uniprot_acc": "P04035",
+        "pgym_title": null,
+        "pgym_title_says_af_monomer_v2": false,
+        "pgym_has_hydrogens": true,
+        "n_ca": 888,
+        "afdb_v2_downloaded": false,
+        "rmsd_pgym_vs_afdb_v2": NaN,
+        "afdb_v4_downloaded": false,
+        "rmsd_pgym_vs_afdb_v4": NaN,
+        "verdict": "compare RMSD"
+      },
+      {
+        "UniProt_ID": "NPC1_HUMAN",
+        "uniprot_acc": "O15118",
+        "pgym_title": null,
+        "pgym_title_says_af_monomer_v2": false,
+        "pgym_has_hydrogens": true,
+        "n_ca": 1278,
+        "afdb_v2_downloaded": false,
+        "rmsd_pgym_vs_afdb_v2": NaN,
+        "afdb_v4_downloaded": false,
+        "rmsd_pgym_vs_afdb_v4": NaN,
+        "verdict": "compare RMSD"
+      },
+      {
+        "UniProt_ID": "SC6A4_HUMAN",
+        "uniprot_acc": "P31645",
+        "pgym_title": null,
+        "pgym_title_says_af_monomer_v2": false,
+        "pgym_has_hydrogens": true,
+        "n_ca": 630,
+        "afdb_v2_downloaded": false,
+        "rmsd_pgym_vs_afdb_v2": NaN,
+        "afdb_v4_downloaded": false,
+        "rmsd_pgym_vs_afdb_v4": NaN,
+        "verdict": "compare RMSD"
+      },
+      {
+        "UniProt_ID": "VKOR1_HUMAN",
+        "uniprot_acc": "Q9BQB6",
+        "pgym_title": null,
+        "pgym_title_says_af_monomer_v2": false,
+        "pgym_has_hydrogens": true,
+        "n_ca": 163,
+        "afdb_v2_downloaded": false,
+        "rmsd_pgym_vs_afdb_v2": NaN,
+        "afdb_v4_downloaded": false,
+        "rmsd_pgym_vs_afdb_v4": NaN,
+        "verdict": "compare RMSD"
+      }
+    ]
+  },
+  "three_estimators": {
+    "mh": 4.413972071041549,
+    "mh_ci": [
+      3.5716455560057927,
+      5.454950425070461
+    ],
+    "logit_core_vs_exposed": 5.462082122687893,
+    "logit_ci": [
+      3.6965891302608984,
+      8.168008123209713
+    ],
+    "gee_exposed_or": 0.16111327115356286,
+    "gee_core_vs_exposed": 6.2068133359843705,
+    "gee_ci_inverted": [
+      4.312577468416084,
+      8.933064291573796
+    ]
+  }
+}

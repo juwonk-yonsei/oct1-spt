@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "OCT1 structure-position triage (SPT)"
+title: "OCT1 and SERT AlphaMissense calibration archive"
 message: If you use this software, please cite the article below.
 type: software
 authors:
@@ -14,11 +14,11 @@ authors:
     email: junjeong@yonsei.ac.kr
 preferred-citation:
   type: article
-  title: "Structure-position triage of OCT1 (SLC22A1) missense variants with AlphaMissense, AlphaFold and deep mutational scanning"
+  title: "ClinVar-calibrated AlphaMissense thresholds miss loss-of-function alleles at solvent-exposed residues in two human drug transporters"
   authors:
     - family-names: Kang
       given-names: Juwon
     - family-names: Choi
       given-names: Junjeong
-  journal: The Pharmacogenomics Journal
+  journal: PLOS Computational Biology
   year: 2026

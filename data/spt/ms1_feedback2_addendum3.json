@@ -1,0 +1,904 @@
+{
+  "oct1_colabfold_vs_afdb_v6": {
+    "colabfold": "/HDD8T1/WORK/Metformin_HDD/structures/oct1_variants_20260811_204134/SLC22A1_WT_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb",
+    "afdb_v6": "/HDD8T1/WORK/Metformin_HDD/spt/fb260901/addendum/afdb/AF-O15245-F1-model_v6.pdb",
+    "all_ca": {
+      "ok": true,
+      "n": 554,
+      "n_aa_mismatch_before_filter": 0,
+      "rmsd_superimposer": 3.742871473925067,
+      "rmsd_numpy_kabsch": 35.19272859204654,
+      "rmsd_unaligned": 24.22078956547031,
+      "tmscore_Laligned": 0.9512267353924045,
+      "tmscore_Lref": 0.9512267353924045,
+      "n_ref": 554,
+      "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)"
+    },
+    "identical_aa": {
+      "ok": true,
+      "n": 554,
+      "n_aa_mismatch_before_filter": 0,
+      "rmsd_superimposer": 3.742871473925067,
+      "rmsd_numpy_kabsch": 35.19272859204654,
+      "rmsd_unaligned": 24.22078956547031,
+      "tmscore_Laligned": 0.9512267353924045,
+      "tmscore_Lref": 0.9512267353924045,
+      "n_ref": 554,
+      "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)"
+    },
+    "plddt70": {
+      "ok": true,
+      "n": 481,
+      "n_aa_mismatch_before_filter": 0,
+      "rmsd_superimposer": 0.4903262379549846,
+      "rmsd_numpy_kabsch": 32.67004875252756,
+      "rmsd_unaligned": 22.734252651409665,
+      "tmscore_Laligned": 0.9961008083905358,
+      "tmscore_Lref": 0.8652213130458681,
+      "n_ref": 554,
+      "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)"
+    },
+    "transmembrane": {
+      "ok": true,
+      "n": 254,
+      "n_aa_mismatch_before_filter": 0,
+      "rmsd_superimposer": 0.29983046716756734,
+      "rmsd_numpy_kabsch": 29.787412061184373,
+      "rmsd_unaligned": 20.795865925342294,
+      "tmscore_Laligned": 0.9974274104037003,
+      "tmscore_Lref": 0.4578858756024008,
+      "n_ref": 554,
+      "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)"
+    },
+    "tm_plddt70": {
+      "ok": true,
+      "n": 254,
+      "n_aa_mismatch_before_filter": 0,
+      "rmsd_superimposer": 0.29983046716756734,
+      "rmsd_numpy_kabsch": 29.787412061184373,
+      "rmsd_unaligned": 20.795865925342294,
+      "tmscore_Laligned": 0.9974274104037003,
+      "tmscore_Lref": 0.4578858756024008,
+      "n_ref": 554,
+      "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)"
+    },
+    "colabfold_vs_pgym_S22A1": {
+      "ok": true,
+      "n": 27,
+      "n_aa_mismatch_before_filter": 526,
+      "rmsd_superimposer": 3.80798950836776,
+      "rmsd_numpy_kabsch": 16.577971703500943,
+      "rmsd_unaligned": 31.773785123139547,
+      "tmscore_Laligned": 0.07565087395176492,
+      "tmscore_Lref": 0.04034690359028744,
+      "n_ref": 554,
+      "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)"
+    },
+    "pgym_S22A1_vs_afdb_v6": {
+      "ok": true,
+      "n": 27,
+      "n_aa_mismatch_before_filter": 526,
+      "rmsd_superimposer": 3.902204626383672,
+      "rmsd_numpy_kabsch": 29.25620552700953,
+      "rmsd_unaligned": 19.526410929918104,
+      "tmscore_Laligned": 0.07330183474778876,
+      "tmscore_Lref": 0.04008577416943291,
+      "n_ref": 553,
+      "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)"
+    },
+    "vs_previous_numpy_kabsch_35A": {
+      "previous": 35.192728551963555,
+      "now": 3.742871473925067,
+      "delta": -31.449857078038487,
+      "dropped": true,
+      "same_fold_tm_ge_0.5": true,
+      "withdraw_protocol_claim": true
+    }
+  },
+  "proteingym_vs_afdb_v6": [
+    {
+      "UniProt_ID": "ADRB2_HUMAN",
+      "uniprot_acc": "P07550",
+      "ok": true,
+      "n": 413,
+      "n_aa_mismatch_before_filter": 0,
+      "rmsd_superimposer": 4.248038827066083,
+      "rmsd_numpy_kabsch": 19.44102787154663,
+      "rmsd_unaligned": 10.904267942930918,
+      "tmscore_Laligned": 0.8394896446204334,
+      "tmscore_Lref": 0.8394896446204334,
+      "n_ref": 413,
+      "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)",
+      "plddt70": {
+        "ok": true,
+        "n": 288,
+        "n_aa_mismatch_before_filter": 0,
+        "rmsd_superimposer": 0.24167601127953942,
+        "rmsd_numpy_kabsch": 9.707633031547587,
+        "rmsd_unaligned": 5.047027730851978,
+        "tmscore_Laligned": 0.9985162881416024,
+        "tmscore_Lref": 0.6965819947098483,
+        "n_ref": 413,
+        "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)"
+      },
+      "previous_reported_v6": 19.4
+    },
+    {
+      "UniProt_ID": "CCR5_HUMAN",
+      "uniprot_acc": "P51681",
+      "ok": true,
+      "n": 352,
+      "n_aa_mismatch_before_filter": 0,
+      "rmsd_superimposer": 1.0808230116673736,
+      "rmsd_numpy_kabsch": 8.473875554014134,
+      "rmsd_unaligned": 4.502431702563511,
+      "tmscore_Laligned": 0.9792911692119094,
+      "tmscore_Lref": 0.9792911692119094,
+      "n_ref": 352,
+      "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)",
+      "plddt70": {
+        "ok": true,
+        "n": 297,
+        "n_aa_mismatch_before_filter": 0,
+        "rmsd_superimposer": 0.050542539000844,
+        "rmsd_numpy_kabsch": 7.388475511893975,
+        "rmsd_unaligned": 3.7571859597441373,
+        "tmscore_Laligned": 0.9999363350307381,
+        "tmscore_Lref": 0.8437038193930342,
+        "n_ref": 352,
+        "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)"
+      },
+      "previous_reported_v6": 8.47
+    },
+    {
+      "UniProt_ID": "HMDH_HUMAN",
+      "uniprot_acc": "P04035",
+      "ok": true,
+      "n": 888,
+      "n_aa_mismatch_before_filter": 0,
+      "rmsd_superimposer": 13.800075576164993,
+      "rmsd_numpy_kabsch": 24.681834733355913,
+      "rmsd_unaligned": 17.831577298274162,
+      "tmscore_Laligned": 0.5686642029237372,
+      "tmscore_Lref": 0.5686642029237372,
+      "n_ref": 888,
+      "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)",
+      "plddt70": {
+        "ok": true,
+        "n": 547,
+        "n_aa_mismatch_before_filter": 0,
+        "rmsd_superimposer": 6.802225267311551,
+        "rmsd_numpy_kabsch": 22.02093399723714,
+        "rmsd_unaligned": 13.351708053054614,
+        "tmscore_Laligned": 0.7038521761951358,
+        "tmscore_Lref": 0.4708473324261687,
+        "n_ref": 888,
+        "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)"
+      },
+      "previous_reported_v6": 24.7
+    },
+    {
+      "UniProt_ID": "NPC1_HUMAN",
+      "uniprot_acc": "O15118",
+      "ok": true,
+      "n": 1278,
+      "n_aa_mismatch_before_filter": 0,
+      "rmsd_superimposer": 3.233659564343851,
+      "rmsd_numpy_kabsch": 37.09419283341274,
+      "rmsd_unaligned": 33.6942417475875,
+      "tmscore_Laligned": 0.9625551508344858,
+      "tmscore_Lref": 0.9625551508344858,
+      "n_ref": 1278,
+      "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)",
+      "plddt70": {
+        "ok": true,
+        "n": 1137,
+        "n_aa_mismatch_before_filter": 0,
+        "rmsd_superimposer": 1.6703164551700944,
+        "rmsd_numpy_kabsch": 34.17091329800055,
+        "rmsd_unaligned": 31.38520331502024,
+        "tmscore_Laligned": 0.9785284027613903,
+        "tmscore_Lref": 0.8721579098165305,
+        "n_ref": 1278,
+        "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)"
+      },
+      "previous_reported_v6": 37.1
+    },
+    {
+      "UniProt_ID": "SC6A4_HUMAN",
+      "uniprot_acc": "P31645",
+      "ok": true,
+      "n": 630,
+      "n_aa_mismatch_before_filter": 0,
+      "rmsd_superimposer": 20.903603903217533,
+      "rmsd_numpy_kabsch": 30.87042602488164,
+      "rmsd_unaligned": 26.655582764029774,
+      "tmscore_Laligned": 0.6261774505650699,
+      "tmscore_Lref": 0.6261774505650699,
+      "n_ref": 630,
+      "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)",
+      "plddt70": {
+        "ok": true,
+        "n": 537,
+        "n_aa_mismatch_before_filter": 0,
+        "rmsd_superimposer": 0.570507417286496,
+        "rmsd_numpy_kabsch": 18.928810664310408,
+        "rmsd_unaligned": 11.928277718547378,
+        "tmscore_Laligned": 0.995224069178017,
+        "tmscore_Lref": 0.8488080029548106,
+        "n_ref": 630,
+        "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)"
+      },
+      "previous_reported_v6": 30.9
+    },
+    {
+      "UniProt_ID": "VKOR1_HUMAN",
+      "uniprot_acc": "Q9BQB6",
+      "ok": true,
+      "n": 163,
+      "n_aa_mismatch_before_filter": 0,
+      "rmsd_superimposer": 0.8110661135947698,
+      "rmsd_numpy_kabsch": 19.110186069812436,
+      "rmsd_unaligned": 14.133862827434026,
+      "tmscore_Laligned": 0.9770658393691485,
+      "tmscore_Lref": 0.9770658393691485,
+      "n_ref": 163,
+      "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)",
+      "plddt70": {
+        "ok": true,
+        "n": 152,
+        "n_aa_mismatch_before_filter": 0,
+        "rmsd_superimposer": 0.5277333204515171,
+        "rmsd_numpy_kabsch": 19.2611418300792,
+        "rmsd_unaligned": 14.332218346102806,
+        "tmscore_Laligned": 0.9871602689108471,
+        "tmscore_Lref": 0.921345185126244,
+        "n_ref": 163,
+        "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)"
+      },
+      "previous_reported_v6": 19.1
+    },
+    {
+      "UniProt_ID": "S22A1_HUMAN",
+      "uniprot_acc": "O15245",
+      "ok": true,
+      "n": 27,
+      "n_aa_mismatch_before_filter": 526,
+      "rmsd_superimposer": 3.902204626383672,
+      "rmsd_numpy_kabsch": 29.25620552700953,
+      "rmsd_unaligned": 19.526410929918104,
+      "tmscore_Laligned": 0.07330183474778876,
+      "tmscore_Lref": 0.04008577416943291,
+      "n_ref": 553,
+      "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)",
+      "plddt70": {
+        "ok": true,
+        "n": 25,
+        "n_aa_mismatch_before_filter": 457,
+        "rmsd_superimposer": 3.837590444249333,
+        "rmsd_numpy_kabsch": 28.93884782082362,
+        "rmsd_unaligned": 19.34292453497597,
+        "tmscore_Laligned": 0.0559275229149355,
+        "tmscore_Lref": 0.037343746620140866,
+        "n_ref": 553,
+        "code_path": "Bio.PDB.Superimposer.set_atoms (met_wp5 / met_structure / manuscript Fig. 4)"
+      },
+      "previous_reported_v6": null
+    }
+  ],
+  "cheng_miss_split": {
+    "n_gfp_loss": 258,
+    "n_miss": 130,
+    "benign_lt_0.34": {
+      "n": 75,
+      "sum_af": {
+        "EUR": 0.0006403980657140136,
+        "EAS": 0.007188972406409396,
+        "SAS": 0.002244185084101474,
+        "AFR": 0.001038573247830072,
+        "AMR": 0.0011354770991272936
+      },
+      "by_class": {
+        "CORE": {
+          "n": 31,
+          "sum_af": {
+            "EUR": 0.00021363958129697034,
+            "EAS": 0.0008829652284400914,
+            "SAS": 8.796704784247181e-05,
+            "AFR": 0.00032164968363423583,
+            "AMR": 0.0001006762121070797
+          }
+        },
+        "EXPOSED": {
+          "n": 17,
+          "sum_af": {
+            "EUR": 0.00018757401639619907,
+            "EAS": 0.0001785495210456834,
+            "SAS": 0.0010419528120848294,
+            "AFR": 0.00021387688770830752,
+            "AMR": 0.0002708134860384501
+          }
+        },
+        "GREY": {
+          "n": 27,
+          "sum_af": {
+            "EUR": 0.00023918446802084417,
+            "EAS": 0.006127457656923621,
+            "SAS": 0.0011142652241741728,
+            "AFR": 0.0005030466764875289,
+            "AMR": 0.0007639874009817638
+          }
+        }
+      }
+    },
+    "ambiguous": {
+      "n": 55,
+      "sum_af": {
+        "EUR": 0.0004352736430110886,
+        "EAS": 0.0005125056780286336,
+        "SAS": 0.008685561497478424,
+        "AFR": 0.0014156149084865914,
+        "AMR": 0.0008952487247179603
+      },
+      "by_class": {
+        "CORE": {
+          "n": 21,
+          "sum_af": {
+            "EUR": 0.00013932021942689523,
+            "EAS": 0.000133680905341906,
+            "SAS": 8.811182637222092e-05,
+            "AFR": 0.001242068023382131,
+            "AMR": 0.0008617798167118157
+          }
+        },
+        "EXPOSED": {
+          "n": 11,
+          "sum_af": {
+            "EUR": 0.0001245881275581524,
+            "EAS": 0.0003341799224702,
+            "SAS": 0.0,
+            "AFR": 4.0037725200619116e-05,
+            "AMR": 3.346890800614454e-05
+          }
+        },
+        "GREY": {
+          "n": 23,
+          "sum_af": {
+            "EUR": 0.000171365296026041,
+            "EAS": 4.464485021652752e-05,
+            "SAS": 0.008597449671106205,
+            "AFR": 0.00013350915990384122,
+            "AMR": 0.0
+          }
+        }
+      }
+    },
+    "by_class_then_cheng": {
+      "CORE": {
+        "n_miss": 52,
+        "n_benign": 31,
+        "n_ambiguous": 21,
+        "benign_sum_af": {
+          "EUR": 0.00021363958129697034,
+          "EAS": 0.0008829652284400914,
+          "SAS": 8.796704784247181e-05,
+          "AFR": 0.00032164968363423583,
+          "AMR": 0.0001006762121070797
+        },
+        "ambiguous_sum_af": {
+          "EUR": 0.00013932021942689523,
+          "EAS": 0.000133680905341906,
+          "SAS": 8.811182637222092e-05,
+          "AFR": 0.001242068023382131,
+          "AMR": 0.0008617798167118157
+        }
+      },
+      "EXPOSED": {
+        "n_miss": 28,
+        "n_benign": 17,
+        "n_ambiguous": 11,
+        "benign_sum_af": {
+          "EUR": 0.00018757401639619907,
+          "EAS": 0.0001785495210456834,
+          "SAS": 0.0010419528120848294,
+          "AFR": 0.00021387688770830752,
+          "AMR": 0.0002708134860384501
+        },
+        "ambiguous_sum_af": {
+          "EUR": 0.0001245881275581524,
+          "EAS": 0.0003341799224702,
+          "SAS": 0.0,
+          "AFR": 4.0037725200619116e-05,
+          "AMR": 3.346890800614454e-05
+        }
+      },
+      "GREY": {
+        "n_miss": 50,
+        "n_benign": 27,
+        "n_ambiguous": 23,
+        "benign_sum_af": {
+          "EUR": 0.00023918446802084417,
+          "EAS": 0.006127457656923621,
+          "SAS": 0.0011142652241741728,
+          "AFR": 0.0005030466764875289,
+          "AMR": 0.0007639874009817638
+        },
+        "ambiguous_sum_af": {
+          "EUR": 0.000171365296026041,
+          "EAS": 4.464485021652752e-05,
+          "SAS": 0.008597449671106205,
+          "AFR": 0.00013350915990384122,
+          "AMR": 0.0
+        }
+      },
+      "ALL": {
+        "n_miss": 130,
+        "n_benign": 75,
+        "n_ambiguous": 55,
+        "benign_sum_af": {
+          "EUR": 0.0006403980657140136,
+          "EAS": 0.007188972406409396,
+          "SAS": 0.002244185084101474,
+          "AFR": 0.001038573247830072,
+          "AMR": 0.0011354770991272936
+        },
+        "ambiguous_sum_af": {
+          "EUR": 0.0004352736430110886,
+          "EAS": 0.0005125056780286336,
+          "SAS": 0.008685561497478424,
+          "AFR": 0.0014156149084865914,
+          "AMR": 0.0008952487247179603
+        }
+      }
+    },
+    "top_benign_by_eas": [
+      {
+        "hgvs_short": "P283L",
+        "class": "GREY",
+        "am": 0.3286,
+        "am_class_cheng": "benign",
+        "af_nfe": 3.391537774099844e-05,
+        "af_eas": 0.0060826166391872,
+        "af_sas": 0.0007248605192637
+      },
+      {
+        "hgvs_short": "R90C",
+        "class": "CORE",
+        "am": 0.2983,
+        "am_class_cheng": "benign",
+        "af_nfe": 9.334881226365778e-06,
+        "af_eas": 0.0002454699634026,
+        "af_sas": 1.0989494043694227e-05
+      },
+      {
+        "hgvs_short": "A33V",
+        "class": "CORE",
+        "am": 0.2898,
+        "am_class_cheng": "benign",
+        "af_nfe": 4.5761005521828e-05,
+        "af_eas": 0.000222826329159,
+        "af_sas": 1.0978153474585577e-05
+      },
+      {
+        "hgvs_short": "R206C",
+        "class": "CORE",
+        "am": 0.2693,
+        "am_class_cheng": "benign",
+        "af_nfe": 1.7819533942817965e-05,
+        "af_eas": 0.0001566135672095,
+        "af_sas": 1.1097301136363637e-05
+      },
+      {
+        "hgvs_short": "A80V",
+        "class": "EXPOSED",
+        "am": 0.0857,
+        "am_class_cheng": "benign",
+        "af_nfe": 4.075470929156429e-05,
+        "af_eas": 0.0001562151305512,
+        "af_sas": 0.0003517411185367
+      },
+      {
+        "hgvs_short": "R90H",
+        "class": "CORE",
+        "am": 0.1318,
+        "am_class_cheng": "benign",
+        "af_nfe": 7.637111610446212e-06,
+        "af_eas": 8.924985496898568e-05,
+        "af_sas": 0.0
+      },
+      {
+        "hgvs_short": "V135I",
+        "class": "CORE",
+        "am": 0.1393,
+        "am_class_cheng": "benign",
+        "af_nfe": 1.947571378491021e-05,
+        "af_eas": 4.56183568267871e-05,
+        "af_sas": 0.0
+      },
+      {
+        "hgvs_short": "T510M",
+        "class": "CORE",
+        "am": 0.1749,
+        "am_class_cheng": "benign",
+        "af_nfe": 4.321967969980119e-05,
+        "af_eas": 4.457122481725798e-05,
+        "af_sas": 1.0981287885443203e-05
+      }
+    ],
+    "top_ambiguous_by_sas": [
+      {
+        "hgvs_short": "R287W",
+        "class": "GREY",
+        "am": 0.4912,
+        "am_class_cheng": "ambiguous",
+        "af_nfe": 0.0001305177656714,
+        "af_eas": 0.0,
+        "af_sas": 0.0084103735259887
+      },
+      {
+        "hgvs_short": "R287Q",
+        "class": "GREY",
+        "am": 0.3665,
+        "am_class_cheng": "ambiguous",
+        "af_nfe": 2.1187266622258155e-05,
+        "af_eas": 0.0,
+        "af_sas": 0.0001537076480534
+      },
+      {
+        "hgvs_short": "S29L",
+        "class": "CORE",
+        "am": 0.4118,
+        "am_class_cheng": "ambiguous",
+        "af_nfe": 3.050764725024406e-05,
+        "af_eas": 6.684789874771603e-05,
+        "af_sas": 3.293807641633728e-05
+      },
+      {
+        "hgvs_short": "V37M",
+        "class": "CORE",
+        "am": 0.3643,
+        "am_class_cheng": "ambiguous",
+        "af_nfe": 0.0,
+        "af_eas": 0.0,
+        "af_sas": 3.2936629924026174e-05
+      },
+      {
+        "hgvs_short": "S470Y",
+        "class": "GREY",
+        "am": 0.5572,
+        "am_class_cheng": "ambiguous",
+        "af_nfe": 0.0,
+        "af_eas": 0.0,
+        "af_sas": 2.196884817329028e-05
+      },
+      {
+        "hgvs_short": "W280L",
+        "class": "GREY",
+        "am": 0.3733,
+        "am_class_cheng": "ambiguous",
+        "af_nfe": 0.0,
+        "af_eas": 0.0,
+        "af_sas": 1.1399648890814162e-05
+      },
+      {
+        "hgvs_short": "R402H",
+        "class": "CORE",
+        "am": 0.3648,
+        "am_class_cheng": "ambiguous",
+        "af_nfe": 1.1920798216648587e-05,
+        "af_eas": 0.0,
+        "af_sas": 1.125872551227201e-05
+      },
+      {
+        "hgvs_short": "P46T",
+        "class": "CORE",
+        "am": 0.3541,
+        "am_class_cheng": "ambiguous",
+        "af_nfe": 8.47423155668244e-07,
+        "af_eas": 0.0,
+        "af_sas": 1.0978394519585456e-05
+      }
+    ],
+    "P283L": [
+      {
+        "variant_id": "6-160136228-C-T",
+        "hgvs_short": "P283L",
+        "consequence": "missense_variant",
+        "rsids": "rs4646277",
+        "ac": 394,
+        "an": 1613438,
+        "af": 0.0002441990333684,
+        "ac_nfe": 40,
+        "an_nfe": 1179406,
+        "af_nfe": 3.391537774099844e-05,
+        "ac_eas": 273,
+        "an_eas": 44882,
+        "af_eas": 0.0060826166391872,
+        "ac_sas": 66,
+        "an_sas": 91052,
+        "af_sas": 0.0007248605192637,
+        "ac_afr": 1,
+        "an_afr": 75006,
+        "af_afr": 1.3332266751993174e-05,
+        "ac_amr": 0,
+        "an_amr": 60024,
+        "af_amr": 0.0,
+        "ac_fin": 5,
+        "an_fin": 64010,
+        "af_fin": 7.811279487580065e-05,
+        "ac_asj": 0,
+        "an_asj": 29598,
+        "af_asj": 0.0,
+        "ac_mid": 1,
+        "an_mid": 6062,
+        "af_mid": 0.0001649620587264,
+        "ac_remaining": 8,
+        "an_remaining": 62488,
+        "af_remaining": 0.0001280245807194,
+        "am": 0.3286,
+        "am_class_cheng": "benign",
+        "am_class_recal": "benign",
+        "pos": 283.0,
+        "class": "GREY",
+        "GFP_score": -1.195048211719825,
+        "dms_loss": true,
+        "am_class": "benign",
+        "in_dms_validation": true,
+        "design_pos": false,
+        "cheng_miss": true
+      }
+    ],
+    "R287W": [
+      {
+        "variant_id": "6-160136239-C-T",
+        "hgvs_short": "R287W",
+        "consequence": "missense_variant",
+        "rsids": "rs4646278",
+        "ac": 961,
+        "an": 1614060,
+        "af": 0.0005953929841517,
+        "ac_nfe": 154,
+        "an_nfe": 1179916,
+        "af_nfe": 0.0001305177656714,
+        "ac_eas": 0,
+        "an_eas": 44892,
+        "af_eas": 0.0,
+        "ac_sas": 766,
+        "an_sas": 91078,
+        "af_sas": 0.0084103735259887,
+        "ac_afr": 6,
+        "an_afr": 75036,
+        "af_afr": 7.996161842315688e-05,
+        "ac_amr": 0,
+        "an_amr": 60026,
+        "af_amr": 0.0,
+        "ac_fin": 0,
+        "an_fin": 64036,
+        "af_fin": 0.0,
+        "ac_asj": 0,
+        "an_asj": 29608,
+        "af_asj": 0.0,
+        "ac_mid": 3,
+        "an_mid": 6060,
+        "af_mid": 0.0004950495049504,
+        "ac_remaining": 32,
+        "an_remaining": 62496,
+        "af_remaining": 0.0005120327700972,
+        "am": 0.4912,
+        "am_class_cheng": "ambiguous",
+        "am_class_recal": "pathogenic",
+        "pos": 287.0,
+        "class": "GREY",
+        "GFP_score": -2.1698363317037006,
+        "dms_loss": true,
+        "am_class": "ambiguous",
+        "in_dms_validation": true,
+        "design_pos": false,
+        "cheng_miss": true
+      }
+    ]
+  },
+  "A1_phylop_by_label": {
+    "AF2": {
+      "n_variants": 2348,
+      "n_residues": 278,
+      "logit_or_clustered": {
+        "point": 0.16197663054257636,
+        "median": 0.1595783097741157,
+        "ci95": [
+          0.10491138335499599,
+          0.23655719617677806
+        ],
+        "n_boot": 10000,
+        "n_residues": 278,
+        "frac_le_1": 1.0,
+        "frac_le_0": 0.0,
+        "or_core_vs_exposed_median": 6.266515802902711,
+        "or_core_vs_exposed_ci95": [
+          4.227307459514801,
+          9.531854104108321
+        ]
+      },
+      "gee": {
+        "ok": true,
+        "cov_struct": "exchangeable",
+        "or": 0.1291023078251141,
+        "ci95": [
+          0.08771125589652459,
+          0.19002584919583773
+        ],
+        "p": 3.066029856614101e-25,
+        "beta": {
+          "const": -0.9297840494363214,
+          "exposed": -2.0471501050297207,
+          "cons": 0.2866966064257232,
+          "gran": 0.014675680499190548
+        }
+      },
+      "mantel_haenszel": {
+        "or": 4.909996781601381,
+        "ci95": [
+          3.993037018193201,
+          6.037526896318262
+        ],
+        "n_strata": 5,
+        "se_log": 0.10546999363143783
+      }
+    },
+    "8SC1": {
+      "n_variants": 1752,
+      "n_residues": 195,
+      "logit_or_clustered": {
+        "point": 0.2197886915023481,
+        "median": 0.2156033046848696,
+        "ci95": [
+          0.12313629631178769,
+          0.363215276253038
+        ],
+        "n_boot": 10000,
+        "n_residues": 195,
+        "frac_le_1": 1.0,
+        "frac_le_0": 0.0,
+        "or_core_vs_exposed_median": 4.638147831090166,
+        "or_core_vs_exposed_ci95": [
+          2.7531881652007906,
+          8.121082328706287
+        ]
+      },
+      "gee": {
+        "ok": true,
+        "cov_struct": "exchangeable",
+        "or": 0.15345389864765896,
+        "ci95": [
+          0.09733478285009203,
+          0.24192892120007145
+        ],
+        "p": 7.048666639754429e-16,
+        "beta": {
+          "const": -0.8063660966821178,
+          "exposed": -1.8743550916072746,
+          "cons": 0.34570122977224216,
+          "gran": 0.012509968701415072
+        }
+      },
+      "mantel_haenszel": {
+        "or": 3.6479428576153228,
+        "ci95": [
+          2.8955307939896247,
+          4.595871375310378
+        ],
+        "n_strata": 5,
+        "se_log": 0.1178545741385083
+      }
+    },
+    "agree": {
+      "n_variants": 1490,
+      "n_residues": 170,
+      "logit_or_clustered": {
+        "point": 0.13474255094808205,
+        "median": 0.1315690446203256,
+        "ci95": [
+          0.07213683400938248,
+          0.2324006020997225
+        ],
+        "n_boot": 10000,
+        "n_residues": 170,
+        "frac_le_1": 1.0,
+        "frac_le_0": 0.0,
+        "or_core_vs_exposed_median": 7.600572025781161,
+        "or_core_vs_exposed_ci95": [
+          4.3029148417218925,
+          13.862543508215719
+        ]
+      },
+      "gee": {
+        "ok": true,
+        "cov_struct": "exchangeable",
+        "or": 0.10952587366637866,
+        "ci95": [
+          0.06572220656293422,
+          0.18252456254487584
+        ],
+        "p": 2.115710026977142e-17,
+        "beta": {
+          "const": -0.7529363169073999,
+          "exposed": -2.211594468446803,
+          "cons": 0.29689194624327436,
+          "gran": 0.013186189656169155
+        }
+      },
+      "mantel_haenszel": {
+        "or": 5.325797960714143,
+        "ci95": [
+          4.0709499789970875,
+          6.967445943743739
+        ],
+        "n_strata": 5,
+        "se_log": 0.13708478053802625
+      }
+    },
+    "AFDB_v6": {
+      "n_variants": 2425,
+      "n_residues": 282,
+      "logit_or_clustered": {
+        "point": 0.15805963100946144,
+        "median": 0.1568963581097993,
+        "ci95": [
+          0.10264913238850064,
+          0.23178288811335432
+        ],
+        "n_boot": 10000,
+        "n_residues": 282,
+        "frac_le_1": 1.0,
+        "frac_le_0": 0.0,
+        "or_core_vs_exposed_median": 6.373634238853265,
+        "or_core_vs_exposed_ci95": [
+          4.3143823434927,
+          9.741923548026266
+        ]
+      },
+      "gee": {
+        "ok": true,
+        "cov_struct": "exchangeable",
+        "or": 0.12729955028419723,
+        "ci95": [
+          0.08674909694106732,
+          0.18680512044485925
+        ],
+        "p": 6.043556330106742e-26,
+        "beta": {
+          "const": -1.0241597203823904,
+          "exposed": -2.0612123061493115,
+          "cons": 0.3158828262263601,
+          "gran": 0.015000904176148838
+        }
+      },
+      "mantel_haenszel": {
+        "or": 5.108604982399029,
+        "ci95": [
+          4.15709244652028,
+          6.277908225985581
+        ],
+        "n_strata": 5,
+        "se_log": 0.10515840336194196
+      }
+    }
+  },
+  "section22_promotion": {
+    "promote_to_results": false,
+    "reason": "C-group lock: not a paper result. SPT is classify_sota (multi-taxon soluble prefixes), not OCT1 Extracellular/Cytoplasmic. Loss is ProteinGym DMS_score_bin==0, not GFP<=-0.814. Assays mix activity/binding/abundance. SLC22 family still OCT1 only. AFDB v6 rerun is SI robustness; if later promoted, footnote those two definition gaps."
+  },
+  "P283L_citation_draft": {
+    "design_safe": true,
+    "design_positions": [
+      61,
+      88,
+      401,
+      420,
+      465
+    ],
+    "gfp": -1.195048211719825,
+    "am": 0.3286,
+    "sentence_en": "P283L is not a design-set residue (locked design positions are 61, 88, 401, 420 and 465) and remains in the validation table. In HEK293 cells P283L abolished TEA uptake while the protein was still detected at the plasma membrane (Takeuchi et al., Drug Metab Pharmacokinet 2003;18:409). Subsequent cellular assays reported preserved metformin uptake for this substitution (reviewed in Arimany-Nardi et al., 2013); we therefore do not interpret P283L as a metformin loss-of-function allele. Independently, P283L is GFP-loss (score \u22121.20; cutoff \u22120.814) and AlphaMissense-benign (0.329) in the abundance scan, so an AM-benign call is not evidence of preserved transporter function."
+  }
+}

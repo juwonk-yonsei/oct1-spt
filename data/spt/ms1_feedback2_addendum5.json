@@ -1,0 +1,351 @@
+{
+  "headline": "Do not lead with SERT OR 33.4. CORE false-negative rate is 2.9% (29/1003); the OR inflates from cell saturation. RD 46.1%p and RR 1.90 match OCT1 RD 36.6%p / RR 1.88.",
+  "oct1": {
+    "cells": {
+      "a_core_path": 1378,
+      "b_core_nonpath": 382,
+      "c_exp_path": 245,
+      "d_exp_nonpath": 343,
+      "n_core": 1760,
+      "n_exposed": 588,
+      "core_fn_frac": 0.21704545454545454,
+      "recall_core": 0.7829545454545455,
+      "recall_exposed": 0.4166666666666667,
+      "rd": 0.3662878787878788,
+      "rr": 1.879090909090909,
+      "or_raw": 5.050261780104712,
+      "or_haldane": 5.042554211093806
+    },
+    "clustered": {
+      "rd": {
+        "point": 0.3662878787878788,
+        "median": 0.3683391032681309,
+        "ci95": [
+          0.275662034713986,
+          0.4577640686333831
+        ],
+        "n_boot": 10000,
+        "n_residues": 278,
+        "frac_le_1": 1.0,
+        "frac_le_0": 0.0
+      },
+      "rr": {
+        "point": 1.879090909090909,
+        "median": 1.887086095080364,
+        "ci95": [
+          1.555630060775701,
+          2.3662939714818125
+        ],
+        "n_boot": 10000,
+        "n_residues": 278,
+        "frac_le_1": 0.0,
+        "frac_le_0": 0.0
+      }
+    },
+    "models": {
+      "mle_exposed_or": 0.1980095376321788,
+      "mle_core_vs_exp_or": 5.05026178010472,
+      "firth_exposed_or": 0.19831219618857665,
+      "firth_core_vs_exp_or": 5.042554211083881,
+      "haldane_core_vs_exp_or": 5.042554211093806,
+      "n": 2348
+    }
+  },
+  "sert": {
+    "cells": {
+      "a_core_path": 974,
+      "b_core_nonpath": 29,
+      "c_exp_path": 98,
+      "d_exp_nonpath": 94,
+      "n_core": 1003,
+      "n_exposed": 192,
+      "core_fn_frac": 0.028913260219341975,
+      "recall_core": 0.9710867397806581,
+      "recall_exposed": 0.5104166666666666,
+      "rd": 0.46067007311399144,
+      "rr": 1.9025372861008814,
+      "or_raw": 32.21534130893737,
+      "or_haldane": 31.69242020132496
+    },
+    "clustered": {
+      "rd": {
+        "point": 0.46067007311399144,
+        "median": 0.46176719863682336,
+        "ci95": [
+          0.3362249664569829,
+          0.5860702965976418
+        ],
+        "n_boot": 10000,
+        "n_residues": 272,
+        "frac_le_1": 1.0,
+        "frac_le_0": 0.0
+      },
+      "rr": {
+        "point": 1.9025372861008814,
+        "median": 1.9064877471731214,
+        "ci95": [
+          1.5319391713813346,
+          2.5218934452275072
+        ],
+        "n_boot": 10000,
+        "n_residues": 272,
+        "frac_le_1": 0.0,
+        "frac_le_0": 0.0
+      }
+    },
+    "models": {
+      "mle_exposed_or": 0.031041111450915017,
+      "mle_core_vs_exp_or": 32.215341308937646,
+      "firth_exposed_or": 0.03155328604276499,
+      "firth_core_vs_exp_or": 31.69242020132781,
+      "haldane_core_vs_exp_or": 31.69242020132496,
+      "n": 1195
+    }
+  },
+  "cutoff_sweep": {
+    "n_cuts": 21,
+    "n_core_gt_exposed": 21,
+    "n_rd_positive": 21,
+    "all_cuts_same_direction": true,
+    "rd_min": 0.42767584097859324,
+    "rd_max": 0.5117929397192403,
+    "rd_at_techSD": 0.4624069057159632,
+    "plot": "/HDD8T1/WORK/Metformin_HDD/spt/fb260901/addendum5/SLC6A4_cutoff_sweep.png"
+  },
+  "myc_offset": {
+    "residues": [
+      {
+        "res": "Y95",
+        "pos": 95,
+        "role": "TM1 S1 subsite A; SSRI aromatic",
+        "expected_topo": "Transmembrane",
+        "uniprot_aa": "Y",
+        "spt_aa": "Y",
+        "topology": "Transmembrane",
+        "rel_sasa": 5.866,
+        "class": "CORE",
+        "construct_pos": 95,
+        "young_aa_mapped": "Y",
+        "young_aa_at_construct": "Y",
+        "young_aa_if_no_shift": "Y",
+        "aa_match": true,
+        "topo_is_TM": true,
+        "not_exposed": true
+      },
+      {
+        "res": "D98",
+        "pos": 98,
+        "role": "TM1 amine salt bridge; substrate/SSRI",
+        "expected_topo": "Transmembrane",
+        "uniprot_aa": "D",
+        "spt_aa": "D",
+        "topology": "Transmembrane",
+        "rel_sasa": 12.214,
+        "class": "GREY",
+        "construct_pos": 98,
+        "young_aa_mapped": "D",
+        "young_aa_at_construct": "D",
+        "young_aa_if_no_shift": "D",
+        "aa_match": true,
+        "topo_is_TM": true,
+        "not_exposed": true
+      },
+      {
+        "res": "I172",
+        "pos": 172,
+        "role": "TM3 S1; antidepressant affinity",
+        "expected_topo": "Transmembrane",
+        "uniprot_aa": "I",
+        "spt_aa": "I",
+        "topology": "Transmembrane",
+        "rel_sasa": 15.938,
+        "class": "GREY",
+        "construct_pos": 172,
+        "young_aa_mapped": "I",
+        "young_aa_at_construct": "I",
+        "young_aa_if_no_shift": "I",
+        "aa_match": true,
+        "topo_is_TM": true,
+        "not_exposed": true
+      },
+      {
+        "res": "N177",
+        "pos": 177,
+        "role": "TM3 S1; (S)-citalopram",
+        "expected_topo": "Transmembrane",
+        "uniprot_aa": "N",
+        "spt_aa": "N",
+        "topology": "Transmembrane",
+        "rel_sasa": 0.0,
+        "class": "CORE",
+        "construct_pos": 177,
+        "young_aa_mapped": "N",
+        "young_aa_at_construct": "N",
+        "young_aa_if_no_shift": "N",
+        "aa_match": true,
+        "topo_is_TM": true,
+        "not_exposed": true
+      },
+      {
+        "res": "F335",
+        "pos": 335,
+        "role": "TM6 S1; after myc insert (construct 359)",
+        "expected_topo": "Transmembrane",
+        "uniprot_aa": "F",
+        "spt_aa": "F",
+        "topology": "Transmembrane",
+        "rel_sasa": 17.661,
+        "class": "GREY",
+        "construct_pos": 359,
+        "young_aa_mapped": "F",
+        "young_aa_at_construct": "F",
+        "young_aa_if_no_shift": "F",
+        "aa_match": true,
+        "topo_is_TM": true,
+        "not_exposed": true
+      },
+      {
+        "res": "F341",
+        "pos": 341,
+        "role": "TM6 S1; after myc insert (construct 365)",
+        "expected_topo": "Transmembrane",
+        "uniprot_aa": "F",
+        "spt_aa": "F",
+        "topology": "Transmembrane",
+        "rel_sasa": 13.805,
+        "class": "GREY",
+        "construct_pos": 365,
+        "young_aa_mapped": "F",
+        "young_aa_at_construct": "F",
+        "young_aa_if_no_shift": "W",
+        "aa_match": true,
+        "topo_is_TM": true,
+        "not_exposed": true
+      },
+      {
+        "res": "S438",
+        "pos": 438,
+        "role": "TM8 S1; after myc insert (construct 462)",
+        "expected_topo": "Transmembrane",
+        "uniprot_aa": "S",
+        "spt_aa": "S",
+        "topology": "Transmembrane",
+        "rel_sasa": 11.072,
+        "class": "GREY",
+        "construct_pos": 462,
+        "young_aa_mapped": "S",
+        "young_aa_at_construct": "S",
+        "young_aa_if_no_shift": "I",
+        "aa_match": true,
+        "topo_is_TM": true,
+        "not_exposed": true
+      }
+    ],
+    "all_aa_TM_not_exposed": true,
+    "wrong_map_no_minus24": {
+      "a_core_path": 775,
+      "b_core_nonpath": 46,
+      "c_exp_path": 245,
+      "d_exp_nonpath": 79,
+      "n_core": 821,
+      "n_exposed": 324,
+      "core_fn_frac": 0.05602923264311815,
+      "recall_core": 0.9439707673568819,
+      "recall_exposed": 0.7561728395061729,
+      "rd": 0.18779792785070903,
+      "rr": 1.2483531780556316,
+      "or_raw": 5.432564330079858,
+      "or_haldane": 5.40063070757506
+    },
+    "rule": "UniProt pos = construct pos if <217 else construct\u221224; insert 217\u2013240 dropped."
+  },
+  "oct1_core_gfp_loss_am_benign": {
+    "n_gfp_loss_core": 1760,
+    "n_benign": 149,
+    "n_ambiguous": 233,
+    "n_pathogenic": 1378,
+    "frac_benign": 0.0846590909090909,
+    "frac_nonpathogenic": 0.21704545454545454,
+    "note": "Validation missense; design 61/88/401/420/465 already excluded in this table."
+  },
+  "locks": {
+    "am_benign": 0.34,
+    "gfp_cut": -0.814,
+    "n_boot": 10000
+  },
+  "wording": {
+    "not_identical_lock": "Same SPT 10%/30% Extracellular/Cytoplasmic rule and AM>0.564; loss cutoff adjusted because Young 2021 has no synonymous-codon GFP.",
+    "promotion": "SERT uses the same SPT rule and a single surface-expression readout; the ProteinGym panel uses a different SASA dictionary and mixed assay types.",
+    "noise_floor_methods": "The RMSD noise floor (3.284 \u00c5) is the maximum C\u03b1 RMSD among five ColabFold wild-type models of OCT1 generated under a single protocol. It does not include pipeline-to-pipeline differences. ColabFold rank-1 versus AFDB v6 (3.74 \u00c5; TM-score 0.951) is reported in SI and is outside that floor by construction."
+  },
+  "myc_offset_exposed": {
+    "residues": [
+      {
+        "res": "E2",
+        "pos": 2,
+        "construct": 2,
+        "role": "N-term cytoplasmic",
+        "topo": "Cytoplasmic",
+        "sasa": 81.3,
+        "class": "EXPOSED",
+        "mapped": "E",
+        "noshift": "E",
+        "aa_match": true
+      },
+      {
+        "res": "N208",
+        "pos": 208,
+        "construct": 208,
+        "role": "EL2 N-glycosylation; before insert",
+        "topo": "Extracellular",
+        "sasa": 37.5,
+        "class": "EXPOSED",
+        "mapped": "N",
+        "noshift": "N",
+        "aa_match": true
+      },
+      {
+        "res": "D216",
+        "pos": 216,
+        "construct": 216,
+        "role": "EL2; insert immediately after",
+        "topo": "Extracellular",
+        "sasa": 77.5,
+        "class": "EXPOSED",
+        "mapped": "D",
+        "noshift": "D",
+        "aa_match": true
+      },
+      {
+        "res": "N217",
+        "pos": 217,
+        "construct": 241,
+        "role": "EL2 N-glycosylation; first UniProt residue after insert",
+        "topo": "Extracellular",
+        "sasa": 78.3,
+        "class": "EXPOSED",
+        "mapped": "N",
+        "noshift": "S",
+        "aa_match": true
+      },
+      {
+        "res": "K605",
+        "pos": 605,
+        "construct": 629,
+        "role": "C-term cytoplasmic",
+        "topo": "Cytoplasmic",
+        "sasa": 62.8,
+        "class": "EXPOSED",
+        "mapped": "K",
+        "noshift": "I",
+        "aa_match": true
+      }
+    ],
+    "all_exposed": true,
+    "straddle": "D216 (no offset) vs N217 (construct 241 = UniProt 217)",
+    "noshift_fails": [
+      "N217 S vs N",
+      "K605 I vs K"
+    ]
+  }
+}

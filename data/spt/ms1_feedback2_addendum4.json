@@ -1,0 +1,742 @@
+{
+  "mavedb": {
+    "queries": {
+      "SLC22A1": {
+        "ok": true,
+        "n": 0,
+        "urns": []
+      },
+      "OCT1": {
+        "ok": true,
+        "n": 0,
+        "urns": []
+      },
+      "SLC22A2": {
+        "ok": true,
+        "n": 0,
+        "urns": []
+      },
+      "OCT2": {
+        "ok": true,
+        "n": 0,
+        "urns": []
+      },
+      "SLC22": {
+        "ok": true,
+        "n": 0,
+        "urns": []
+      },
+      "SLCO1B1": {
+        "ok": true,
+        "n": 0,
+        "urns": []
+      },
+      "OATP1B1": {
+        "ok": true,
+        "n": 0,
+        "urns": []
+      },
+      "SLC6A4": {
+        "ok": true,
+        "n": 0,
+        "urns": []
+      },
+      "SERT": {
+        "ok": true,
+        "n": 20,
+        "urns": [
+          {
+            "urn": "urn:mavedb:00000113-a-2",
+            "title": "Single amino acid insertions",
+            "n": 763,
+            "targets": [
+              "APP"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000113-a-3",
+            "title": "Single amino acid substitutions",
+            "n": 751,
+            "targets": [
+              "APP"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000113-a-1",
+            "title": "Single amino acid deletions",
+            "n": 37,
+            "targets": [
+              "APP"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000051-a-1",
+            "title": "C-terminal of L-Selectin",
+            "n": 540,
+            "targets": [
+              "human L-Selectin"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00001213-a-1",
+            "title": "Deep mutational scan of human TP53 in HCT116 colorectal cancer cells covering Exons 5, 6, 7 and 8",
+            "n": 8052,
+            "targets": [
+              "TP53"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000660-a-1",
+            "title": "DIMPLE mKir2.1 surface expression",
+            "n": 11055,
+            "targets": [
+              "mKir2.1"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000076-e-1",
+            "title": "Fis1 tail anchor, SC -Ura",
+            "n": 525,
+            "targets": [
+              "Fis1 tail anchor"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000076-d-1",
+            "title": "Fis1 tail anchor, SMM -Trp -His",
+            "n": 536,
+            "targets": [
+              "Fis1 tail anchor"
+            ]
+          }
+        ]
+      },
+      "SLC47": {
+        "ok": true,
+        "n": 0,
+        "urns": []
+      },
+      "MATE": {
+        "ok": true,
+        "n": 61,
+        "urns": [
+          {
+            "urn": "urn:mavedb:00001257-0-1",
+            "title": "ADSL Estimated Enzyme Activities",
+            "n": 8901,
+            "targets": [
+              "ADSL"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00001230-a-2",
+            "title": "Scores from arrayed automated patch clamp experiment for KCNH2",
+            "n": 76,
+            "targets": [
+              "KCNH2"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00001233-a-1",
+            "title": "Scores from automatic patch clamping assay of SCN5A variants in HEK293T cells",
+            "n": 49,
+            "targets": [
+              "SCN5A"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000003-a-2",
+            "title": "Enrich2 amino acid variant scores for BRCA1 E3",
+            "n": 12316,
+            "targets": [
+              "BRCA1 RING domain"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000003-a-1",
+            "title": "Enrich2 nucleotide variant scores for BRCA1 E3",
+            "n": 20724,
+            "targets": [
+              "BRCA1 RING domain"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000003-b-2",
+            "title": "Enrich2 amino acid variant scores for BRCA1 Y2H",
+            "n": 12316,
+            "targets": [
+              "BRCA1 RING domain"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000003-b-1",
+            "title": "Enrich2 nucleotide variant scores for BRCA1 Y2H",
+            "n": 20724,
+            "targets": [
+              "BRCA1 RING domain"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000001-c-2",
+            "title": "Human Calmodulin imputed and refined",
+            "n": 2980,
+            "targets": [
+              "CALM1"
+            ]
+          }
+        ]
+      },
+      "ABCB1": {
+        "ok": true,
+        "n": 0,
+        "urns": []
+      },
+      "CFTR": {
+        "ok": true,
+        "n": 0,
+        "urns": []
+      },
+      "NPC1": {
+        "ok": true,
+        "n": 3,
+        "urns": [
+          {
+            "urn": "urn:mavedb:00001223-a-1",
+            "title": "Scores from saturation prime editing essentiality screen of BRCA2 in locally haploidized HEK293T cells",
+            "n": 420,
+            "targets": [
+              "ENST00000380152.8"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00001232-a-1",
+            "title": "Scores from saturation prime editing of NCP1 in locally haploidized HEK293T cells",
+            "n": 978,
+            "targets": [
+              "ENST00000269228.10"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00001232-b-1",
+            "title": "Scores from saturation prime editing of NCP1 in locally haploidized RPE1 cells",
+            "n": 84,
+            "targets": [
+              "ENST00000269228.10"
+            ]
+          }
+        ]
+      },
+      "transporter": {
+        "ok": true,
+        "n": 12,
+        "urns": [
+          {
+            "urn": "urn:mavedb:00000009-a-2",
+            "title": "SUL1 promoter under glucose limited conditions",
+            "n": 116242,
+            "targets": [
+              "SUL1 promoter"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000009-a-1",
+            "title": "SUL1 promoter under sulfate limited conditions",
+            "n": 125032,
+            "targets": [
+              "SUL1 promoter"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00001252-a-1",
+            "title": "LetA variants expressed in a \u2206pqiAB \u2206letAB strain and selected on LB+cholate",
+            "n": 8967,
+            "targets": [
+              "LetA"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000110-a-2",
+            "title": "Deep mutational scan of the Escherichia coli outer membrane phospholipid transporter, MlaC. [No selection] [replicate 1]",
+            "n": 4431,
+            "targets": [
+              "MlaC"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000110-a-3",
+            "title": "Deep mutational scan of the Escherichia coli outer membrane phospholipid transporter, MlaC. [selection] [replicate 2]",
+            "n": 4431,
+            "targets": [
+              "MlaC"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000110-a-1",
+            "title": "Deep mutational scan of the Escherichia coli outer membrane phospholipid transporter, MlaC. [selection] [replicate 1]",
+            "n": 4431,
+            "targets": [
+              "MlaC"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00001223-a-1",
+            "title": "Scores from saturation prime editing essentiality screen of BRCA2 in locally haploidized HEK293T cells",
+            "n": 420,
+            "targets": [
+              "ENST00000380152.8"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00001232-a-1",
+            "title": "Scores from saturation prime editing of NCP1 in locally haploidized HEK293T cells",
+            "n": 978,
+            "targets": [
+              "ENST00000269228.10"
+            ]
+          }
+        ]
+      },
+      "solute carrier": {
+        "ok": true,
+        "n": 0,
+        "urns": []
+      },
+      "CYP2C9": {
+        "ok": true,
+        "n": 6,
+        "urns": [
+          {
+            "urn": "urn:mavedb:00000062-b-1",
+            "title": "Abundance of CYP2C19 variants",
+            "n": 121,
+            "targets": [
+              "CYP2C19"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000062-a-1",
+            "title": "Abundance of CYP2C9 variants",
+            "n": 109,
+            "targets": [
+              "CYP2C9"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00001199-a-1",
+            "title": "CYP2C19 VAMP-seq nonsynonymous scores",
+            "n": 8149,
+            "targets": [
+              "CYP2C19"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00001199-a-2",
+            "title": "CYP2C19 VAMP-seq synonymous scores",
+            "n": 532,
+            "targets": [
+              "CYP2C19"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000095-b-1",
+            "title": "CYP2C9 abundance scores as measured by VAMP-seq",
+            "n": 6821,
+            "targets": [
+              "CYP2C9"
+            ]
+          },
+          {
+            "urn": "urn:mavedb:00000095-a-1",
+            "title": "CYP2C9 activity scores as measured by Click-seq",
+            "n": 6524,
+            "targets": [
+              "CYP2C9"
+            ]
+          }
+        ]
+      },
+      "Kir2.1": {
+        "ok": false,
+        "error": "HTTP Error 502: Bad Gateway"
+      }
+    },
+    "human_slc_drug_transporter_score_sets": 0,
+    "note": "No MaveDB score-set for SLC22A1/OCT1, SLC22A2, SLCO1B1, SLC6A4, SLC47, ABCB1 or CFTR. NPC1 00001232 is LysoTracker essentiality (Erwood 2022), not surface-abundance GFP. CYP2C9 is VAMP-seq of an enzyme. mKir2.1 is an ion-channel surface-expression scan."
+  },
+  "empty_human_slc_drug_transporter_queries": [
+    "SLC22A1",
+    "OCT1",
+    "SLC22A2",
+    "SLCO1B1",
+    "SLC6A4",
+    "SLC47",
+    "ABCB1",
+    "CFTR"
+  ],
+  "rejected": {
+    "Zhang_SLCO1B1": {
+      "why": "Landing-pad GFP but only 137 ExAC missense. Underpowered for locked CORE/EXPOSED recall + residue-clustered CI.",
+      "pmid": "PMC8042483"
+    },
+    "NPC1_Erwood_MaveDB_00001232": {
+      "why": "LysoTracker essentiality after saturation prime editing, not surface-abundance GFP."
+    },
+    "CYP2C9_VAMPseq": {
+      "why": "Abundance MAVE of a PGx enzyme, not a transporter. SPT Extracellular/Cytoplasmic lock does not apply to the same biology."
+    },
+    "mKir2.1_DIMPLE": {
+      "why": "Mouse Kir2.1 ion-channel surface expression, not a solute carrier."
+    },
+    "ProteinGym_SC6A4_Young_2021": {
+      "why": "DMS_score_bin is APP+ transport activity, not myc surface expression. Forbidden as the loss definition."
+    },
+    "Yee_OCT1": {
+      "why": "Only SLC22 saturation abundance+uptake DMS in the literature; not deposited in MaveDB; already the discovery set."
+    }
+  },
+  "sert_replication": {
+    "second_transporter": "SLC6A4 / SERT (Young 2021 GEO GSE109499)",
+    "assay": "anti-myc surface expression (MYC1/MYC2), not ProteinGym APP+ activity bin",
+    "spt": "OCT1 lock classify() on AFDB v6 + UniProt P31645 Extracellular/Cytoplasmic",
+    "loss": {
+      "n_wt_rows": 612,
+      "wt_mean": -0.010944184299019609,
+      "wt_sd": 0.21025616688082702,
+      "synonymous_formula_degenerate": false,
+      "n_missense_scored": 11569,
+      "n_stop_scored": 608,
+      "n_tech_pairs": 11569,
+      "sd_tech": 0.953461195635013,
+      "cut_tech": -1.906922391270026,
+      "cut_stop_median": -2.1638411807500004,
+      "stop_mean": -2.125886375999178,
+      "min_reads": 10,
+      "primary_cutoff": "cut_tech",
+      "primary_rule": "Young 2021 zeros WT (enrichment 0) and does not report synonymous-codon scores. Identical arithmetic to OCT1 GFP (mean \u2212 2 SD) with WT mean = 0 and SD = technical replicate SD of MYC1/MYC2."
+    },
+    "n_myc_loss_core_exposed": 1195,
+    "n_residues_core_exposed": 272,
+    "recall_techSD": {
+      "recall_core": 0.9710867397806581,
+      "recall_exposed": 0.5104166666666666,
+      "n_loss_core": 1003,
+      "n_loss_exposed": 192,
+      "or_variant": {
+        "or": 32.21534130893737,
+        "p": 7.243337244883479e-59,
+        "a": 974,
+        "b": 29,
+        "c": 98,
+        "d": 94,
+        "ci95": [
+          20.23001467498853,
+          51.30140696014668
+        ]
+      },
+      "or_clustered": {
+        "point": 32.21534130893737,
+        "median": 33.3566768433003,
+        "ci95": [
+          16.827965015749967,
+          69.64512563089751
+        ],
+        "n_boot": 10000,
+        "n_residues": 272,
+        "frac_le_1": 0.0,
+        "frac_le_0": 0.0
+      },
+      "ci_excludes_1": true
+    },
+    "recall_nonsense_median": {
+      "recall_core": 0.9708222811671088,
+      "recall_exposed": 0.5,
+      "n_loss_core": 754,
+      "n_loss_exposed": 150,
+      "or_variant": {
+        "or": 33.27272727272727,
+        "p": 4.503099373716746e-47,
+        "a": 732,
+        "b": 22,
+        "c": 75,
+        "d": 75,
+        "ci95": [
+          19.55851102685529,
+          56.603203518161166
+        ]
+      },
+      "or_clustered": {
+        "point": 33.27272727272727,
+        "median": 34.34891304347826,
+        "ci95": [
+          16.58109881835552,
+          80.25501152073731
+        ],
+        "n_boot": 10000,
+        "n_residues": 249,
+        "frac_le_1": 0.0,
+        "frac_le_0": 0.0
+      },
+      "ci_excludes_1": true
+    },
+    "A1_phylop": {
+      "n_variants": 1195,
+      "n_residues": 272,
+      "unadjusted_or": {
+        "or": 32.21534130893737,
+        "p": 7.243337244883479e-59,
+        "a": 974,
+        "b": 29,
+        "c": 98,
+        "d": 94,
+        "ci95": [
+          20.23001467498853,
+          51.30140696014668
+        ]
+      },
+      "logit_or_point": 0.03597791414695371,
+      "logit_or_clustered": {
+        "point": 0.03597791414695371,
+        "median": 0.03487627072426866,
+        "ci95": [
+          0.01583942516068779,
+          0.07767151986014616
+        ],
+        "n_boot": 10000,
+        "n_residues": 272,
+        "frac_le_1": 1.0,
+        "frac_le_0": 0.0,
+        "or_core_vs_exposed_median": 28.672790388226623,
+        "or_core_vs_exposed_ci95": [
+          12.874731971262836,
+          63.13360427257938
+        ]
+      },
+      "gee": {
+        "ok": true,
+        "cov_struct": "exchangeable",
+        "or": 0.05177114358799572,
+        "ci95": [
+          0.027103223037996633,
+          0.09889050112790512
+        ],
+        "p": 3.0454753144448407e-19,
+        "beta": {
+          "const": -0.5710827649777904,
+          "exposed": -2.9609223585306585,
+          "cons": 0.3884458757212078,
+          "gran": 0.019524161764040898
+        }
+      },
+      "conservation_by_class": {
+        "median_core": 5.670786666666667,
+        "median_exposed": 3.333736666666667,
+        "n_core": 207,
+        "n_exposed": 65,
+        "p_core_greater": 3.322846561525184e-15,
+        "spearman_exposed_vs_cons": -0.47332721217370444
+      },
+      "quintiles": [
+        {
+          "quintile": 1,
+          "cons_min": -0.3147466666666665,
+          "cons_max": 3.84624,
+          "n_core": 93,
+          "recall_core": 0.967741935483871,
+          "n_exposed": 72,
+          "recall_exposed": 0.2361111111111111,
+          "or": {
+            "or": 97.05882352941177,
+            "p": 9.446967446878664e-25,
+            "a": 90,
+            "b": 3,
+            "c": 17,
+            "d": 55,
+            "ci95": [
+              27.191423157567684,
+              346.448038792397
+            ]
+          }
+        },
+        {
+          "quintile": 2,
+          "cons_min": 3.846242,
+          "cons_max": 4.83965,
+          "n_core": 186,
+          "recall_core": 0.978494623655914,
+          "n_exposed": 45,
+          "recall_exposed": 0.7555555555555555,
+          "or": {
+            "or": 14.720588235294118,
+            "p": 3.8141231806324887e-06,
+            "a": 182,
+            "b": 4,
+            "c": 34,
+            "d": 11,
+            "ci95": [
+              4.426870757409147,
+              48.950089096321854
+            ]
+          }
+        },
+        {
+          "quintile": 3,
+          "cons_min": 4.868892,
+          "cons_max": 5.734998666666667,
+          "n_core": 266,
+          "recall_core": 0.9586466165413534,
+          "n_exposed": 14,
+          "recall_exposed": 0.9285714285714286,
+          "or": {
+            "or": 1.7832167832167831,
+            "p": 0.4664943203368986,
+            "a": 255,
+            "b": 11,
+            "c": 13,
+            "d": 1,
+            "ci95": [
+              0.21368901037859028,
+              14.880793777425838
+            ]
+          }
+        },
+        {
+          "quintile": 4,
+          "cons_min": 5.734999666666667,
+          "cons_max": 6.409673333333333,
+          "n_core": 198,
+          "recall_core": 0.9747474747474747,
+          "n_exposed": 35,
+          "recall_exposed": 0.45714285714285713,
+          "or": {
+            "or": 45.8375,
+            "p": 3.223923448688009e-14,
+            "a": 193,
+            "b": 5,
+            "c": 16,
+            "d": 19,
+            "ci95": [
+              15.116957336756695,
+              138.9880489469437
+            ]
+          }
+        },
+        {
+          "quintile": 5,
+          "cons_min": 6.5036933333333335,
+          "cons_max": 8.553173333333334,
+          "n_core": 260,
+          "recall_core": 0.9769230769230769,
+          "n_exposed": 26,
+          "recall_exposed": 0.6923076923076923,
+          "or": {
+            "or": 18.814814814814813,
+            "p": 3.26106978722147e-06,
+            "a": 254,
+            "b": 6,
+            "c": 18,
+            "d": 8,
+            "ci95": [
+              5.889518609074953,
+              60.106314286928836
+            ]
+          }
+        }
+      ],
+      "mantel_haenszel": {
+        "or": 29.31199487457533,
+        "ci95": [
+          17.605372279724165,
+          48.80288981543718
+        ],
+        "n_strata": 5,
+        "se_log": 0.26009832398016036
+      },
+      "cons_col": "cons_phylop",
+      "class_col": "class"
+    },
+    "A1_error": null,
+    "direction_matches_OCT1": true,
+    "clustered_OR_excludes_1": true,
+    "success_for_paper": true,
+    "caveat": "Not SLC22. Young zeros most WT rows instead of synonymous-codon GFP. Technical-SD cutoff is the same arithmetic as OCT1 mean\u22122SD with WT mean \u2248 0. Nonsense-median cutoff is a sensitivity, not the lock. Construct positions 217\u2013240 are a myc+GS insertion after UniProt D216 and were excluded; positions \u2265241 were shifted \u221224 onto P31645 before AM/SPT join.",
+    "numbering": {
+      "young_insert_inclusive": [
+        217,
+        240
+      ],
+      "n_insert_rows": 504,
+      "aa_mismatches_after_map": 1,
+      "am_join_rate": 1.0,
+      "spt_join_rate": 1.0
+    }
+  },
+  "spt_counts": {
+    "EXPOSED": 191,
+    "GREY": 198,
+    "CORE": 241
+  },
+  "reporting_table": [
+    {
+      "spt": "EXPOSED",
+      "am": "benign (<0.34)",
+      "grade": "functional validation recommended",
+      "action": "Do not treat AM-benign as evidence of preserved transporter function. Recommend HEK (or equivalent) uptake/surface assay before using the variant as a functionally conserved allele in PGx reporting.",
+      "anchor": "OCT1 GFP-loss EXPOSED AM-benign set (n=17 in the manuscript); R61C is the clinical example (AM 0.268, still benign after Youden 0.479)."
+    },
+    {
+      "spt": "EXPOSED",
+      "am": "ambiguous (0.34\u20130.564)",
+      "grade": "functional validation recommended",
+      "action": "AM is uninformative. Prioritise functional assay if the variant is observed or is a candidate PGx allele.",
+      "anchor": "Cheng miss includes 11 EXPOSED ambiguous; R287W is SAS-common and AM-ambiguous with no dedicated uptake paper."
+    },
+    {
+      "spt": "EXPOSED",
+      "am": "pathogenic (>0.564)",
+      "grade": "reduced-function candidate; confirm if a clinical decision depends on it",
+      "action": "AM and SPT are directionally concordant with abundance loss more often than in EXPOSED-benign, but AM is still not a substitute for a star allele.",
+      "anchor": "EXPOSED GFP-loss AM-pathogenic recall remains below CORE (AF2 41.7% vs 78.3%)."
+    },
+    {
+      "spt": "CORE",
+      "am": "pathogenic (>0.564)",
+      "grade": "concordant abundance-loss support",
+      "action": "AM pathogenic at a buried site is the setting where ClinVar-calibrated AM tracks OCT1 GFP-loss. Still not a PharmVar allele.",
+      "anchor": "CORE GFP-loss recall 78.3% (AF2)."
+    },
+    {
+      "spt": "CORE",
+      "am": "benign (<0.34)",
+      "grade": "discordant; inspect assay and haplotype",
+      "action": "Uncommon among GFP-loss CORE. Do not override a known reduced-function haplotype with an AM-benign singleton call.",
+      "anchor": "Haplotype context (e.g. R61C+M420del) is outside AM's variant-level score."
+    },
+    {
+      "spt": "GREY",
+      "am": "any",
+      "grade": "no SPT-informed AM override",
+      "action": "Do not apply the CORE/EXPOSED recall correction. Report AM as-is and recommend function if the allele is PGx-actionable.",
+      "anchor": "P283L is GREY, GFP-loss, AM-benign; TEA LoF with membrane expression and preserved metformin uptake in later assays."
+    }
+  ],
+  "journal": {
+    "identity": "This manuscript is a variant-effect predictor calibration paper (AM vs transporter abundance DMS, SPT as a structural prior), not a PGx discovery paper.",
+    "submit_to": [
+      "PLOS Computational Biology",
+      "Human Genomics"
+    ],
+    "do_not_insist_on": "The Pharmacogenomics Journal / CPT / similar PGx venues as first target after a 2-week second-transporter attempt",
+    "rationale": "PGx journals will keep asking for wet-lab uptake of the EXPOSED AM-benign 17. That experiment changes the paper class and takes months. Computational Biology / Human Genomics match the current evidence. Citations will come from the VEP and rare-variant interpretation community.",
+    "next_paper": "The SPT lock and validation pipeline are the platform. Adding a second transporter (SERT if this addendum holds, or a future SLC22 DMS) is a separate, stronger manuscript. Do not delay the current paper for that expansion.",
+    "wetlab_not_this_cycle": "Priority-2 HEK293 uptake of EXPOSED benign 17 is months, not this revision. It is the expansion-paper experiment, not a requirement for PLOS CB / Human Genomics."
+  },
+  "locks_held": {
+    "spt_10_30": true,
+    "soluble_Extracellular_Cytoplasmic": true,
+    "am_pathogenic": 0.564,
+    "am_benign": 0.34,
+    "n_boot": 10000,
+    "seed": 20260812,
+    "proteingym_bin_not_used": true
+  }
+}
