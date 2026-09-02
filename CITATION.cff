@@ -18,7 +18,9 @@ preferred-citation:
   authors:
     - family-names: Kang
       given-names: Juwon
+      orcid: "https://orcid.org/0009-0009-2186-0038"
     - family-names: Choi
       given-names: Junjeong
+      orcid: "https://orcid.org/0000-0003-1339-593X"
   journal: PLOS Computational Biology
   year: 2026
